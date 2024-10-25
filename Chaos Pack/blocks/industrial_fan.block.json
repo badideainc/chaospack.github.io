@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:industrial_fan",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.factory"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.7
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.industrial_fan",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "industrial_fan",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_dampening": 15,
+			"minecraft:map_color": "#181d24"
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:fluorescent_light",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.light_decor"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:geometry": "geometry.fluorescent_light",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "fluorescent_light",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:light_emission": 15,
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}
