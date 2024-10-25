@@ -1,0 +1,66 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.blight.casting": {
+			"loop": true,
+			"animation_length": 1.0833,
+			"bones": {
+				"leftArm": {
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"],
+					"position": [0, 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["-22.1357+math.cos(query.life_time * 763.4) * 14.3239 - this", "12.0436-this", "11.6745 - this"],
+					"position": [0, 0, 0]
+				},
+				"leftArm2": {
+					"scale": 0
+				},
+				"rightArm2": {
+					"scale": 0
+				}
+			}
+		},
+		"animation.blight.casting.v1.0": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"position": ["5.0 - this", 0, "-this"],
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"]
+				},
+				"rightarm": {
+					"position": ["-5.0 - this", 0, "-this"],
+					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this"]
+				}
+			}
+		},
+		"animation.blight.general": {
+			"loop": true
+		},
+		"animation.blight.move": {
+			"loop": true,
+			"animation_length": 9.25,
+			"anim_time_update": "query.modified_distance_moved",
+			"bones": {
+				"leg0": {
+					"rotation": ["(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0]
+				},
+				"leg1": {
+					"rotation": ["(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0]
+				},
+				"rightArm": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"9.25": [0, 0, 0]
+					}
+				},
+				"rightArm2": {
+					"rotation": {
+						"0.0": [-15, 0, 0],
+						"9.25": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}
