@@ -1,0 +1,29 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:the_swamp_mobile",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/the_swamp_mobile"
+			},
+			"geometry": {
+				"default": "geometry.the_swamp_mobile"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.the_swamp_mobile.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"texture": "the_swamp_mobile_spawn_egg"
+			}
+		}
+	}
+}

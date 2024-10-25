@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:mannequin",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "armor_stand"
+			},
+			"textures": {
+				"default": "textures/entity/mannequin"
+			},
+			"geometry": {
+				"default": "geometry.mannequin"
+			},
+			"spawn_egg": {
+				"texture": "mannequin_spawn_egg"
+			},
+			"render_controllers": ["controller.render.default"],
+			"enable_attachables": true
+		}
+	}
+}

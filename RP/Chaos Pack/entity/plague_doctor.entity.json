@@ -1,0 +1,38 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:plague_doctor",
+			"materials": {
+				"default": "wandering_trader"
+			},
+			"textures": {
+				"default": "textures/entity/plague_doctor"
+			},
+			"geometry": {
+				"default": "geometry.plague_doctor"
+			},
+			"scripts": {
+				"scale": "0.9375"
+			},
+			"animations": {
+				"general": "animation.plague_doctor.general",
+				"look_at_target": "animation.common.look_at_target",
+				"move": "animation.plague_doctor.move"
+			},
+			"animation_controllers": [
+				{
+					"general": "controller.animation.villager.general"
+				},
+				{
+					"move": "controller.animation.villager.move"
+				}
+			],
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#1a1a1a",
+				"overlay_color": "#000000"
+			}
+		}
+	}
+}

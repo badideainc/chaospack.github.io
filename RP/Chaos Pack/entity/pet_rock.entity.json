@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:pet_rock",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/pet_rock"
+			},
+			"geometry": {
+				"default": "geometry.pet_rock"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "pet_rock_spawn_egg"
+			}
+		}
+	}
+}

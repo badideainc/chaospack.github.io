@@ -1,0 +1,59 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:the_wild_hunt",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"mule": "textures/entity/the_wild_hunt/mule",
+				"markings_none": "textures/entity/the_wild_hunt/markings_none",
+				"armor_none": "textures/entity/the_wild_hunt/armor_none"
+			},
+			"geometry": {
+				"default": "geometry.the_wild_hunt"
+			},
+			"animations": {
+				"baby_transform": "animation.the_wild_hunt.baby_transform",
+				"walk": "animation.the_wild_hunt.walk",
+				"eat": "animation.the_wild_hunt.eat",
+				"rear": "animation.the_wild_hunt.rear",
+				"tail": "animation.the_wild_hunt.tail",
+				"look_at_player": "animation.the_wild_hunt.look_at_player"
+			},
+			"scripts": {
+				"scale": "0.92",
+				"initialize": ["variable.eat_anim = 0;", "variable.stand_anim = 0;", "variable.leg_stand_factor = 0;", "variable.leg_x_rot_anim = 0;"],
+				"pre_animation": [
+					"variable.eat_anim = math.clamp(variable.eat_anim + (query.is_grazing ? ((1.0 - variable.eat_anim) * 0.4 + 0.05) : -variable.eat_anim * 0.4 - 0.05) * query.delta_time * 20.0, 0.0, 1.0);",
+					"variable.head_x_rot = query.target_x_rotation + (query.modified_move_speed > 0.2 ? (math.cos(query.modified_distance_moved * 11.46) * 11.46 * query.modified_move_speed + query.modified_move_speed * 11.46) : 0.0);",
+					"variable.inverse_max_stand_eat = (1.0 - math.max(variable.stand_anim, variable.eat_anim));",
+					"variable.leg_stand_factor = math.cos((query.modified_distance_moved * 38.38) + 180.0);",
+					"variable.leg_x_rot_anim = variable.leg_stand_factor * 45.8 * query.modified_move_speed;"
+				],
+				"animate": [
+					{
+						"baby_transform": "query.is_baby"
+					},
+					"walk",
+					"look_at_player",
+					{
+						"rear": "variable.stand_anim > 0.0"
+					},
+					{
+						"eat": "!query.is_standing"
+					},
+					{
+						"tail": "Math.mod(q.life_time, 10) < 0.5"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.mule.v3"],
+			"spawn_egg": {
+				"base_color": "#70cad9",
+				"overlay_color": "#00fff6"
+			}
+		}
+	}
+}

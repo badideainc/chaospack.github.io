@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:rat",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/rat/rat",
+				"saddled": "textures/entity/pig/pig_saddle",
+				"saddle": "textures/entity/rat/saddle"
+			},
+			"geometry": {
+				"default": "geometry.rat"
+			},
+			"animations": {
+				"setup": "animation.rat.setup",
+				"walk": "animation.rat.walk",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.rat.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"setup",
+					{
+						"walk": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.pig"],
+			"spawn_egg": {
+				"base_color": "#424242",
+				"overlay_color": "#db8080"
+			}
+		}
+	}
+}

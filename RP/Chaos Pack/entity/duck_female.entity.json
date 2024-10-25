@@ -1,0 +1,42 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:duck_female",
+			"min_engine_version": "1.12.0",
+			"materials": {
+				"default": "entity_alphatest",
+				"legs": "chicken_legs"
+			},
+			"textures": {
+				"default": "textures/entity/duck_female"
+			},
+			"geometry": {
+				"default": "geometry.duck_female"
+			},
+			"animations": {
+				"move": "animation.duck_female.move",
+				"general": "animation.duck_female.general",
+				"look_at_target": "animation.common.look_at_target",
+				"baby_transform": "animation.duck_female.baby_transform"
+			},
+			"scripts": {
+				"animate": [
+					"general",
+					{
+						"move": "query.modified_move_speed"
+					},
+					"look_at_target",
+					{
+						"baby_transform": "query.is_baby"
+					}
+				]
+			},
+			"render_controllers": ["controller.render.chicken"],
+			"spawn_egg": {
+				"base_color": "#684319",
+				"overlay_color": "#4f330b"
+			}
+		}
+	}
+}
