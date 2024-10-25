@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:granite_pillar"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:granite"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:granite"
+			}
+		],
+		"result": {
+			"item": "chaospack:granite_pillar",
+			"count": 2
+		}
+	}
+}

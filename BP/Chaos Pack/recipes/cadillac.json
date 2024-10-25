@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:cadillac_spawn_egg"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"#GS",
+			"PrP"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blackstone"
+			},
+			"G": {
+				"item": "minecraft:leather"
+			},
+			"S": {
+				"item": "chaospack:steering_wheel"
+			},
+			"P": {
+				"item": "chaospack:wheel"
+			},
+			"r": {
+				"item": "minecraft:lapis_lazuli"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:wheel"
+			},
+			{
+				"item": "chaospack:steering_wheel"
+			}
+		],
+		"result": {
+			"item": "chaospack:cadillac_spawn_egg",
+			"count": 1
+		}
+	}
+}

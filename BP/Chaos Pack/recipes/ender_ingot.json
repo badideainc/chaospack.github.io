@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:ender_ingot"
+		},
+
+		"unlock": [
+			{
+				"item": "chaospack:venison"
+			}
+		],
+		"tags": [ "furnace", "blast_furnace" ],
+		"input": "chaospack:ender_shard",
+		"output": "chaospack:ender_ingot"
+	}
+}

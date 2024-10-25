@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:basalt_bricks_stonecutter_polished"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:polished_basalt"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:polished_basalt"
+			}
+		],
+		"result": {
+			"item": "chaospack:basalt_bricks",
+			"count": 1
+		}
+	}
+}

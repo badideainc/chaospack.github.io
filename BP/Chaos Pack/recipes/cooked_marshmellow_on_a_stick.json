@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:cooked_marshmellow_on_a_stick"
+		},
+
+		"unlock": [
+			{
+				"item": "minecraft:marshmellow"
+			}
+		],
+		"tags": [ "furnace", "smoker", "campfire" ],
+		"input": "chaospack:marshmellow_on_a_stick",
+		"output": "chaospack:cooked_marshmellow_on_a_stick"
+	}
+}

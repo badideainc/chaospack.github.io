@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:bin_outdoor"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"x x",
+			"#P#"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:cactus"
+			},
+			"#": {
+				"item": "minecraft:blackstone"
+			},
+			"x": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:cactus"
+			}
+		],
+		"result": {
+			"item": "chaospack:bin_outdoor",
+			"count": 1
+		}
+	}
+}

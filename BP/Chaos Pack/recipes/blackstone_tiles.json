@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:blackstone_tiles"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:polished_blackstone_bricks"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:polished_blackstone_bricks"
+			}
+		],
+		"result": {
+			"item": "chaospack:blackstone_tiles",
+			"count": 4
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:dodo_spawn_egg"
+		},
+
+		"tags": [ "chaospack:incubator" ],
+		"pattern": [
+			" G",
+			"#S#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:feather"
+			},
+			"G": {
+				"item": "minecraft:chicken"
+			},
+			"S": {
+				"item": "chaospack:fossil"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:feather"
+			}
+		],
+		"result": {
+			"item": "chaospack:dodo_spawn_egg",
+			"count": 1
+		}
+	}
+}

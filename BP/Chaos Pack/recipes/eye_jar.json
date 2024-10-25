@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:eye_jar"
+		},
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "chaospack:glass_jar"
+			},
+			{
+				"item": "minecraft:spider_eye"
+			}
+		],
+		"unlock": [
+			{
+				"item": "chaospack:glass_jar"
+			},
+			{
+				"item": "minecraft:spider_eye"
+			}
+		],
+		"result": {
+			"item": "chaospack:eye_jar"
+		}
+	}
+}

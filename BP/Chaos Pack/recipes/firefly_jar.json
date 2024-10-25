@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:firefly_jar"
+		},
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "chaospack:glass_jar"
+			},
+			{
+				"item": "chaospack:firefly_spawn_egg"
+			}
+		],
+		"unlock": [
+			{
+				"item": "chaospack:glass_jar"
+			},
+			{
+				"item": "chaospack:firefly_spawn_egg"
+			}
+		],
+		"result": {
+			"item": "chaospack:firefly_jar"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:ender_block"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:ender_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:ender_ingot"
+			}
+		],
+		"result": {
+			"item": "chaospack:ender_block",
+			"count": 1
+		}
+	}
+}

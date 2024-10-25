@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:blackstone_pillar"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:blackstone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:blackstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:blackstone_pillar",
+			"count": 2
+		}
+	}
+}

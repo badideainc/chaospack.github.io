@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:cheese"
+		},
+
+		"unlock": [
+			{
+				"item": "minecraft:milk_bucket"
+			}
+		],
+		"tags": [ "furnace", "smoker"],
+		"input": "minecraft:milk_bucket",
+		"output": "chaospack:cheese"
+	}
+}

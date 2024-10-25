@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:fancy_glass"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:metal_sheet"
+			},
+			"P": {
+				"item": "minecraft:glass"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:metal_sheet"
+			},
+			{
+				"item": "minecraft:glass"
+			}
+		],
+		"result": {
+			"item": "chaospack:fancy_glass",
+			"count": 5
+		}
+	}
+}
