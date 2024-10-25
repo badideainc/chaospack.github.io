@@ -1,0 +1,123 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.sedan",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-19, 4, -34], "size": [30, 2, 60], "uv": [74, 38]},
+						{"origin": [-6, 6, -11], "size": [4, 3, 10], "uv": [10, 99]},
+						{"origin": [-5, 5, -8], "size": [2, 8, 2], "pivot": [0, 0, 0], "rotation": [-15, 0, 0], "uv": [1, 22]}
+					]
+				},
+				{
+					"name": "steering_wheel",
+					"parent": "body",
+					"pivot": [-13, 18, -12],
+					"cubes": [
+						{"origin": [-16, 13, -13], "size": [6, 6, 2], "uv": [28, 72]}
+					]
+				},
+				{
+					"name": "wheel_front_left",
+					"parent": "root",
+					"pivot": [10, 5, -24],
+					"cubes": [
+						{"origin": [7, 0, -29], "size": [6, 10, 10], "uv": [30, 32]}
+					]
+				},
+				{
+					"name": "wheel_front_right",
+					"parent": "root",
+					"pivot": [-18, 5, -22],
+					"cubes": [
+						{"origin": [-21, 0, -28], "size": [6, 10, 10], "uv": [30, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "wheel_back_left",
+					"parent": "root",
+					"pivot": [10, 5, 13],
+					"cubes": [
+						{"origin": [7, 0, 8], "size": [6, 10, 10], "uv": [30, 32]}
+					]
+				},
+				{
+					"name": "wheel_back_right",
+					"parent": "root",
+					"pivot": [-18, 5, 13],
+					"cubes": [
+						{"origin": [-21, 0, 8], "size": [6, 10, 10], "uv": [30, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "Front",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-20, 6, -34], "size": [32, 11, 20], "uv": [30, 129]},
+						{"origin": [-20, 20, -31], "size": [32, 2, 20], "pivot": [0, 0, 0], "rotation": [7.5, 0, 0], "uv": [30, 129]},
+						{"origin": [10, 17, -24], "size": [2, 2, 10], "uv": [124, 132]},
+						{"origin": [-20, 17, -24], "size": [2, 2, 10], "uv": [40, 139]},
+						{"origin": [-18, 16, -16], "size": [28, 3, 2], "uv": [94, 121]},
+						{"origin": [-18, 12, -14], "size": [28, 6, 2], "uv": [100, 11]}
+					]
+				},
+				{
+					"name": "Walls",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [10, 6, -14], "size": [2, 14, 39], "uv": [144, 197]},
+						{"origin": [-20, 6, -14], "size": [2, 14, 39], "uv": [144, 197]},
+						{"origin": [-20, 6, 25], "size": [32, 13, 2], "uv": [172, 170]}
+					]
+				},
+				{
+					"name": "Windows",
+					"parent": "root",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{"origin": [10, 16, -17], "size": [2, 12, 2], "pivot": [0, 7, 0], "rotation": [-15, 0, 0], "uv": [38, 134]},
+						{"origin": [-20, 16, -17], "size": [2, 12, 2], "pivot": [0, 7, 0], "rotation": [-15, 0, 0], "uv": [38, 134]},
+						{"origin": [10, 12, 26], "size": [2, 13, 2], "pivot": [0, 7, 0], "rotation": [15, 0, 0], "uv": [38, 134]},
+						{"origin": [-20, 12, 26], "size": [2, 13, 2], "pivot": [0, 7, 0], "rotation": [15, 0, 0], "uv": [7, 158]},
+						{"origin": [-20, 30, -11], "size": [32, 2, 33], "uv": [7, 211]},
+						{"origin": [-20, 20, 4], "size": [2, 10, 2], "uv": [7, 190]},
+						{"origin": [10, 20, 4], "size": [2, 10, 2], "uv": [7, 190]},
+						{"origin": [-17, 20, -21], "size": [4, 2, 1], "pivot": [0, 0, 0], "rotation": [0, 22.5, 0], "uv": [1, 1]},
+						{"origin": [5, 20, -19], "size": [4, 2, 1], "pivot": [0, 0, 0], "rotation": [0, -22.5, 0], "uv": [1, 1]}
+					]
+				},
+				{
+					"name": "Seat",
+					"parent": "root",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-18, 6, -5], "size": [11, 2, 8], "uv": [171, 139]},
+						{"origin": [-18, 6, 3], "size": [11, 17, 2], "uv": [177, 145]},
+						{"origin": [-1, 6, -5], "size": [11, 2, 8], "uv": [171, 139]},
+						{"origin": [-1, 6, 3], "size": [11, 17, 2], "uv": [177, 145]},
+						{"origin": [-18, 6, 8.1], "size": [28, 2, 8], "uv": [171, 139]},
+						{"origin": [-18, 6, 16.1], "size": [28, 17, 2], "uv": [94, 177]}
+					]
+				}
+			]
+		}
+	]
+}

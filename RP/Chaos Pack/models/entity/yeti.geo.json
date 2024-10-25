@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.yeti",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 31, 0],
+					"cubes": [
+						{"origin": [-9, 23, -6], "size": [18, 17, 11], "uv": [0, 0]},
+						{"origin": [-4.5, 18, -3], "size": [9, 5, 6], "uv": [58, 19]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 38, -3],
+					"cubes": [
+						{"origin": [-4, 38, -1.5], "size": [8, 10, 7], "pivot": [0, 5, 6], "rotation": [10, 0, 0], "uv": [35, 29]},
+						{"origin": [-5, 38, -0.5], "size": [10, 11, 7], "pivot": [0, 5, 6], "rotation": [10, 0, 0], "uv": [0, 28]},
+						{"origin": [9, 45.5, -10.5], "size": [4, 4, 4], "pivot": [8, 12, -4], "rotation": [-10, 180, 0], "uv": [66, 30]},
+						{"origin": [6, 50, -2.5], "size": [2, 2, 2], "pivot": [3, 17, 4], "rotation": [10, 0, 0], "uv": [0, 0]},
+						{"origin": [-7, 47, -1.5], "size": [4, 4, 4], "pivot": [-8, 14, 5], "rotation": [10, 0, 0], "uv": [66, 30]},
+						{"origin": [-8, 50, -3.5], "size": [2, 2, 2], "pivot": [-11, 17, 3], "rotation": [10, 0, 0], "uv": [0, 0]}
+					],
+					"locators": {
+						"lead": [0, 31, -2]
+					}
+				},
+				{
+					"name": "arm0",
+					"parent": "body",
+					"pivot": [-9, 40, 0],
+					"cubes": [
+						{"origin": [-15, 27.5, -3], "size": [6, 13, 6], "uv": [58, 0]},
+						{"origin": [-14.9, 26.5, -26], "size": [6, 13, 6], "pivot": [0, 6, -23], "rotation": [-45, 0, 0], "uv": [48, 46]}
+					]
+				},
+				{
+					"name": "arm1",
+					"parent": "body",
+					"pivot": [9, 40, 0],
+					"cubes": [
+						{"origin": [9, 27.5, -3], "size": [6, 13, 6], "uv": [58, 0]},
+						{"origin": [8.9, 26.5, -26], "size": [6, 13, 6], "pivot": [22, 6, -23], "rotation": [-45, 0, 0], "uv": [48, 46]}
+					]
+				},
+				{
+					"name": "leg0",
+					"parent": "body",
+					"pivot": [-4, 13, 0],
+					"cubes": [
+						{"origin": [-7.5, 0, -3], "size": [6, 18, 6], "uv": [0, 46]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "body",
+					"pivot": [5, 13, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1.5, 0, -3], "size": [6, 18, 6], "uv": [0, 46], "mirror": false}
+					]
+				}
+			]
+		}
+	]
+}

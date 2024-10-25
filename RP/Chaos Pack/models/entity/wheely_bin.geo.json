@@ -1,0 +1,58 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.wheely_bin",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, -1]
+				},
+				{
+					"name": "body",
+					"parent": "root",
+					"pivot": [0, 0, -1],
+					"cubes": [
+						{"origin": [-7, 20, 4], "size": [14, 16, 3], "uv": [-1, 44]},
+						{"origin": [-7, 20, -7], "size": [14, 9, 0], "uv": [0, 63]},
+						{"origin": [-7, 20, -7], "size": [14, 2, 11], "uv": [25, 63]},
+						{"origin": [-8, 3, -8], "size": [16, 26, 16], "uv": [32, 0]},
+						{"origin": [-8, 29, -6], "size": [16, 16, 2], "pivot": [-1, 13, 1], "rotation": [-45, 0, 0], "uv": [36, 44]},
+						{"origin": [5, 4, 8], "size": [2, 2, 5], "uv": [67, 69]}
+					]
+				},
+				{
+					"name": "steering_wheel",
+					"parent": "body",
+					"pivot": [0, 28, -6],
+					"cubes": [
+						{"origin": [-3, 25, -7], "size": [6, 6, 2], "uv": [0, 20]}
+					]
+				},
+				{
+					"name": "wheel_front_left",
+					"parent": "root",
+					"pivot": [7, 5, 0],
+					"cubes": [
+						{"origin": [5, 0, -5], "size": [4, 10, 10], "uv": [2, 0]}
+					]
+				},
+				{
+					"name": "wheel_front_right",
+					"parent": "root",
+					"pivot": [-7, 5, 0],
+					"cubes": [
+						{"origin": [-9, 0, -5], "size": [4, 10, 10], "uv": [2, 0], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

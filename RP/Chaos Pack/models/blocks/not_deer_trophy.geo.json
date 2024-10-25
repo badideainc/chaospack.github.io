@@ -1,0 +1,50 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.not_deer_trophy",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0.75664, 6],
+							"size": [14, 14, 2],
+							"uv": {
+								"north": {"uv": [0, 65], "uv_size": [14, 14]},
+								"east": {"uv": [14, 65], "uv_size": [2, 14]},
+								"south": {"uv": [0, 65], "uv_size": [14, 14]},
+								"west": {"uv": [14, 65], "uv_size": [2, 14]},
+								"up": {"uv": [14, 65], "uv_size": [-14, -2]},
+								"down": {"uv": [14, 65], "uv_size": [-14, -2]}
+							}
+						}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "block",
+					"pivot": [0, 8, 4],
+					"cubes": [
+						{"origin": [-3, 4.96395, -4.03605], "size": [6, 12, 6], "pivot": [0, 13, 1], "rotation": [45, 0, 0], "uv": [38, 38]},
+						{"origin": [-4, 12, -5], "size": [8, 6, 6], "uv": [36, 0]},
+						{"origin": [-4, 7.3002, 11.22403], "size": [8, 7, 7], "pivot": [0, -29, 24], "rotation": [15, 0, 0], "uv": [68, 0]},
+						{"origin": [-3, 14.24679, -5.23082], "size": [6, 4, 4], "pivot": [0, -12, 14], "rotation": [7.5, 0, 0], "uv": [16, 44]},
+						{"origin": [-7.56242, 16.49844, -2], "size": [3, 2, 1], "pivot": [-1, 0, 10], "rotation": [0, 0, 5], "uv": [0, 1]},
+						{"origin": [-18.85977, 38.55029, -2], "size": [2, 3, 1], "pivot": [-19, 17, 10], "rotation": [0, 0, 85], "uv": [1, 5]},
+						{"origin": [-18, 21.38248, -31.38085], "size": [10, 10, 0.1], "pivot": [-4, 12, -17], "rotation": [15, 180, 0], "uv": [65, 32]},
+						{"origin": [-10, 15.71211, -3.43952], "size": [10, 10, 0.1], "pivot": [4, 7, 4], "rotation": [-15, 0, 0], "uv": [65, 32]}
+					]
+				}
+			]
+		}
+	]
+}
