@@ -1,0 +1,223 @@
+{
+	"texture_data": {
+		"clown_nose": {
+			"textures": "textures/items/clown_nose.png"
+		},
+		"fossil": {
+			"textures": "textures/items/fossil.png"
+		},
+		"dodo_spawn_egg": {
+			"textures": ["textures/items/dodo_spawn_egg"]
+		},
+		"pharaoh_sceptre": {
+			"textures": "textures/items/pharaoh_sceptre.png"
+		},
+		"not_deer_hide": {
+			"textures": "textures/items/not_deer_hide.png"
+		},
+		"ender_ingot": {
+			"textures": "textures/items/ender_ingot.png"
+		},
+		"ender_shard": {
+			"textures": "textures/items/ender_shard.png"
+		},
+		"pirate_hat": {
+			"textures": "textures/items/hats/pirate_hat.png"
+		},
+		"cutlass": {
+			"textures": "textures/items/cutlass.png"
+		},
+		"anubis_mask": {
+			"textures": "textures/items/hats/anubis_mask.png"
+		},
+		"party_hat": {
+			"textures": "textures/items/hats/party_hat.png"
+		},
+		"ender_helmet": {
+			"textures": "textures/items/ender_helmet.png"
+		},
+		"metal_sheet": {
+			"textures": "textures/items/metal_sheet.png"
+		},
+		"crate_spawn_egg": {
+			"textures": ["textures/items/crate_spawn_egg"]
+		},
+		"deck_chair_spawn_egg": {
+			"textures": ["textures/items/deck_chair_spawn_egg"]
+		},
+		"row_boat_spawn_egg": {
+			"textures": ["textures/items/cars/row_boat_spawn_egg"]
+		},
+		"backpack_spawn_egg": {
+			"textures": ["textures/items/backpack_spawn_egg"]
+		},
+		"ratstone": {
+			"textures": "textures/items/ratstone.png"
+		},
+		"rat_item": {
+			"textures": "textures/items/rat_item.png"
+		},
+		"rat_sceptre": {
+			"textures": "textures/items/rat_sceptre.png"
+		},
+		"pizza_slice": {
+			"textures": "textures/items/pizza/pizza_slice.png"
+		},
+		"half_pizza": {
+			"textures": "textures/items/pizza/half_pizza.png"
+		},
+		"three_quarter_pizza": {
+			"textures": "textures/items/pizza/three_quarter_pizza.png"
+		},
+		"pizza": {
+			"textures": "textures/items/pizza/pizza.png"
+		},
+		"cheese": {
+			"textures": "textures/items/pizza/cheese.png"
+		},
+		"yeti_fur": {
+			"textures": "textures/items/yeti_fur.png"
+		},
+		"yeti_horn": {
+			"textures": "textures/items/yeti_horn.png"
+		},
+		"pet_rock_spawn_egg": {
+			"textures": ["textures/items/pet_rock_spawn_egg"]
+		},
+		"cowboy_hat": {
+			"textures": "textures/items/hats/cowboy_hat.png"
+		},
+		"wither_bone": {
+			"textures": "textures/items/wither_bone.png"
+		},
+		"copper_boots": {
+			"textures": "textures/items/copper/copper_boots.png"
+		},
+		"copper_leggings": {
+			"textures": "textures/items/copper/copper_leggings.png"
+		},
+		"copper_chestplate": {
+			"textures": "textures/items/copper/copper_chestplate.png"
+		},
+		"copper_helmet": {
+			"textures": "textures/items/copper/copper_helmet.png"
+		},
+		"copper_hoe": {
+			"textures": "textures/items/copper/copper_hoe.png"
+		},
+		"copper_shovel": {
+			"textures": "textures/items/copper/copper_shovel.png"
+		},
+		"copper_axe": {
+			"textures": "textures/items/copper/copper_axe.png"
+		},
+		"copper_pickaxe": {
+			"textures": "textures/items/copper/copper_pickaxe.png"
+		},
+		"copper_sword": {
+			"textures": "textures/items/copper/copper_sword.png"
+		},
+		"cooked_venison": {
+			"textures": "textures/items/cooked_venison.png"
+		},
+		"venison": {
+			"textures": "textures/items/venison.png"
+		},
+		"wild_shard": {
+			"textures": "textures/items/wild_gear/wild_shard.png"
+		},
+		"wild_boots": {
+			"textures": "textures/items/wild_gear/wild_boots.png"
+		},
+		"wild_leggings": {
+			"textures": "textures/items/wild_gear/wild_leggings.png"
+		},
+		"wild_chestplate": {
+			"textures": "textures/items/wild_gear/wild_chestplate.png"
+		},
+		"wild_helmet": {
+			"textures": "textures/items/wild_gear/wild_helmet.png"
+		},
+		"wild_blade": {
+			"textures": "textures/items/wild_gear/wild_blade.png"
+		},
+		"wheely_bin_spawn_egg": {
+			"textures": ["textures/items/cars/wheely_bin_spawn_egg"]
+		},
+		"toy_car_spawn_egg": {
+			"textures": ["textures/items/cars/toy_car_spawn_egg"]
+		},
+		"mannequin_head_spawn_egg": {
+			"textures": ["textures/items/mannequin_head_spawn_egg"]
+		},
+		"marshmellow": {
+			"textures": "textures/items/marshmellow/marshmellow.png"
+		},
+		"cooked_marshmellow_on_a_stick": {
+			"textures": "textures/items/marshmellow/cooked_marshmellow_on_a_stick.png"
+		},
+		"marshmellow_on_a_stick": {
+			"textures": "textures/items/marshmellow/marshmellow_on_a_stick.png"
+		},
+		"log_bench_spawn_egg": {
+			"textures": ["textures/items/log_bench_spawn_egg"]
+		},
+		"lightning_staff": {
+			"textures": "textures/items/lightning_staff.png"
+		},
+		"golf_cart_spawn_egg": {
+			"textures": ["textures/items/cars/golf_cart_spawn_egg"]
+		},
+		"sunglasses_higher": {
+			"textures": "textures/items/hats/sunglasses_higher.png"
+		},
+		"sunglasses": {
+			"textures": "textures/items/hats/sunglasses.png"
+		},
+		"bonk_hammer": {
+			"textures": "textures/items/bonk_hammer.png"
+		},
+		"wizard_hat": {
+			"textures": "textures/items/hats/wizard_hat.png"
+		},
+		"totem": {
+			"textures": "textures/items/eldritch_totem"
+		},
+		"mannequin_spawn_egg": {
+			"textures": ["textures/items/mannequin_spawn_egg"]
+		},
+		"wheel": {
+			"textures": ["textures/items/wheel"]
+		},
+		"steering_wheel": {
+			"textures": ["textures/items/steering_wheel"]
+		},
+		"tree_sap": {
+			"textures": ["textures/items/tree_sap"]
+		},
+		"rubber": {
+			"textures": ["textures/items/rubber"]
+		},
+		"cadillac_spawn_egg": {
+			"textures": ["textures/items/cars/cadillac_spawn_egg"]
+		},
+		"firefly_spawn_egg": {
+			"textures": ["textures/items/firefly_spawn_egg"]
+		},
+		"duck_egg": {
+			"textures": ["textures/items/duck_egg"]
+		},
+		"sedan_spawn_egg": {
+			"textures": ["textures/items/cars/sedan_spawn_egg"]
+		},
+		"the_swamp_mobile_spawn_egg": {
+			"textures": ["textures/items/cars/the_swamp_mobile_spawn_egg"]
+		},
+		"deer_hide": {
+			"textures": ["textures/items/deer_hide"]
+		},
+		"antler": {
+			"textures": ["textures/items/antler"]
+		}
+	}
+}
