@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:marshmellow_on_a_stick",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.miscFood"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "marshmellow_on_a_stick"
+			},
+			"minecraft:food": {
+				"can_always_eat": false,
+				"nutrition": 2,
+				"saturation_modifier": 0.6,
+				"using_converts_to": "stick"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 1.6
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}

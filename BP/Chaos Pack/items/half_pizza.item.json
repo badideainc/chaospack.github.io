@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:half_pizza",
+			"menu_category": {
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "half_pizza"
+			},
+			"minecraft:food": {
+				"can_always_eat": false,
+				"nutrition": 4,
+				"saturation_modifier": 0.8,
+				"using_converts_to": "chaospack:pizza_slice"
+			},
+			"minecraft:use_modifiers": {
+				"movement_modifier": 0.32,
+				"use_duration": 1.6
+			},
+			"minecraft:use_animation": "eat"
+		}
+	}
+}
