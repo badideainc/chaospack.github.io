@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:dirtstone",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stone_decor"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.dirtstone",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dirtstone",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_dampening": 15,
+			"minecraft:map_color": "#79553a"
+		}
+	}
+}

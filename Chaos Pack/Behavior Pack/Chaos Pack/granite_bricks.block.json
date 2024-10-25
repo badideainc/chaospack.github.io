@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:granite_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.granite_bricks",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "granite_bricks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:light_dampening": 15,
+			"minecraft:map_color": "#9f6b58"
+		}
+	}
+}
