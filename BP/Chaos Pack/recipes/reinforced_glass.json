@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:reinforced_glass"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:obsidian"
+			},
+			"P": {
+				"item": "minecraft:glass"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:obsidian"
+			},
+			{
+				"item": "minecraft:glass"
+			}
+		],
+		"result": {
+			"item": "chaospack:reinforced_glass",
+			"count": 5
+		}
+	}
+}

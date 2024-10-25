@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:steering_wheel"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:leather"
+			},
+			"P": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:leather"
+			}
+		],
+		"result": {
+			"item": "chaospack:steering_wheel",
+			"count": 2
+		}
+	}
+}

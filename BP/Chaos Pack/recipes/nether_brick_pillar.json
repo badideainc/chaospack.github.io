@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:nether_brick_pillar"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:nether_brick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:nether_brick"
+			}
+		],
+		"result": {
+			"item": "chaospack:nether_brick_pillar",
+			"count": 2
+		}
+	}
+}

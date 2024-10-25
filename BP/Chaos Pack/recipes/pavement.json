@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:pavement"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stone_slab"
+			}
+		},
+		"unlock": [
+			{
+				"item": "stone"
+			}
+		],
+		"result": {
+			"item": "chaospack:pavement",
+			"count": 2
+		}
+	}
+}

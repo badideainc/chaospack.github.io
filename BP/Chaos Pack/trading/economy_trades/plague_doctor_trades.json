@@ -1,0 +1,55 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 3,
+          "trades": [
+            {
+              "max_uses": 16,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "chaospack:rat_item"
+                }
+              ]
+            },
+            {
+              "max_uses": 6,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 1
+                }
+              ],
+              "gives": [
+                {
+                  "item": "chaospack:cheese"
+                }
+              ]
+            },
+            {
+              "max_uses": 4,
+              "wants": [
+                {
+                  "item": "minecraft:emerald",
+                  "quantity": 4
+                }
+              ],
+              "gives": [
+                {
+                  "item": "minecraft:potion:21"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

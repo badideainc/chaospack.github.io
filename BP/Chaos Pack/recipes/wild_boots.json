@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wild_boots"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"# #",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:wild_shard"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:wild_shard"
+			}
+		],
+		"result": {
+			"item": "chaospack:wild_boots",
+			"count": 1
+		}
+	}
+}

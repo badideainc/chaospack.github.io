@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:rat_sceptre"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"P#P",
+			" P",
+			" P "
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:bone"
+			},
+			"#": {
+				"item": "chaospack:ratstone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:ratstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:rat_sceptre",
+			"count": 1
+		}
+	}
+}

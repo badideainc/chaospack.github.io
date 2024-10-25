@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:pizza"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"P": {
+				"item": "chaospack:cheese"
+			},
+			"#": {
+				"item": "minecraft:bread"
+			}
+		},
+			"unlock": [
+				{
+					"item": "chaospack:cheese"
+				},
+				{
+					"item": "minecraft:bread"
+				}
+			],
+		"result": {
+			"item": "chaospack:pizza",
+			"count": 1
+		}
+	}
+}

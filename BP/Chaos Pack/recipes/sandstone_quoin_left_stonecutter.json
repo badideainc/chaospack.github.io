@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:sandstone_quoin_left_stonecutter"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:sandstone"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:sandstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:sandstone_quoin_left",
+			"count": 2
+		}
+	}
+}

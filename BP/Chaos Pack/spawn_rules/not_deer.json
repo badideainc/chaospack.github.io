@@ -1,0 +1,54 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "chaospack:not_deer",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:grass",
+          "minecraft:podzol",
+          "minecraft:dirt"
+        ],
+        "minecraft:world_age_filter": {
+          "min": 6000
+        },
+        "minecraft:delay_filter": {
+          "min": 120,
+          "max": 140,
+          "identifier": "chaospack:not_deer",
+          "spawn_chance": 100
+        },
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7,
+          "adjust_for_weather": false
+        },
+        "minecraft:weight": {
+          "default": 100
+        },
+        "minecraft:biome_filter": {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "forest"
+            },
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "cherry_grove"
+            }
+          ]
+        },
+        "minecraft:density_limit": {
+          "surface": 1,
+          "underground": 0
+        }
+      }
+    ]
+  }
+}

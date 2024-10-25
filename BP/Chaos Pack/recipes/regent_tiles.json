@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:regent_tiles"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:diorite"
+			},
+			"P": {
+				"item": "minecraft:blackstone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "diorite"
+			},
+			{
+				"item": "blackstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:regent_tiles",
+			"count": 5
+		}
+	}
+}

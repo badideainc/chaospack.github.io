@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:railing_steel"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#P#",
+			" P "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"P": {
+				"item": "minecraft:polished_deepslate"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:polished_deepslate"
+			}
+		],
+		"result": {
+			"item": "chaospack:railing_steel",
+			"count": 4
+		}
+	}
+}

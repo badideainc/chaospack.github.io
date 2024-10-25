@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:rubber"
+		},
+
+		"unlock": [
+			{
+				"item": "minecraft:tree_sap"
+			}
+		],
+		"tags": [ "furnace", "blast_furnace"],
+		"input": "chaospack:tree_sap",
+		"output": "chaospack:rubber"
+	}
+}

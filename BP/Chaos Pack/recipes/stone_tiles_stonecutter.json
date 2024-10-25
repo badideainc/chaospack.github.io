@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:stone_tiles_stonecutter"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:cobblestone"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:cobblestone"
+			}
+		],
+		"result": {
+			"item": "chaospack:stone_tiles",
+			"count": 1
+		}
+	}
+}

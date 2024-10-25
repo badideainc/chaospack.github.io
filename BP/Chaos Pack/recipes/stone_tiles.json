@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:stone_tiles"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:cobblestone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "cobblestone"
+			}
+		],
+		"result": {
+			"item": "chaospack:stone_tiles",
+			"count": 4
+		}
+	}
+}

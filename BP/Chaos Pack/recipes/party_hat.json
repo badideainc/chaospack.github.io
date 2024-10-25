@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:party_hat"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:paper"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:paper"
+			}
+		],
+		"result": {
+			"item": "chaospack:party_hat",
+			"count": 1
+		}
+	}
+}
