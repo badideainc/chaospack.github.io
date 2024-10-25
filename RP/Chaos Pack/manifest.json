@@ -1,0 +1,27 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chaos Pack",
+		"description": "Chaos Pack Resource Pack",
+		"uuid": "93e838a1-2414-2084-b543-1b14f2df21e5",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 16, 0]
+	},
+	"metadata": {
+		"authors": ["BadIdeaInc"],
+		"generated_with": {
+			"blockbench_item_wizard": ["1.0.4", "1.1.0"],
+			"blockbench_entity_wizard": ["1.4.0", "1.5.0", "1.5.1"],
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	},
+	"modules": [
+		{
+			"description": "Chaos Pack",
+			"type": "resources",
+			"uuid": "6f0b7905-ec40-728d-6492-ef987e7291cf",
+			"version": [1, 0, 0],
+			"capabilities": ["pbr"]
+		}
+	]
+}

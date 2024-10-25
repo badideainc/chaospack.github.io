@@ -1,0 +1,30 @@
+{//All sounds sourced on Pixabay
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.duck.say": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/duck/quack" ]
+		},
+		"mob.wildhunt.say": {
+			"category": "hostile",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/the_wild_hunt/wild_hunt_say" ]
+		},
+		"mob.car.horn": {
+			"category": "neutral",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/car/goofy_horn" ]
+		},
+		"mob.clowncreeper.death": {
+			"category": "hostile",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/clown_creeper/clown_horn" ]
+		}
+	}
+
+}

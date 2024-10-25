@@ -1,0 +1,368 @@
+{
+	"stair_railing_left": {
+		"sound": "wood"
+	},
+	"polished_glowstone": {
+		"sound": "glass"
+	},
+	"format_version": "1.20.20",
+	"deepslate_fossil_ore": {
+		"sound": "deepslate"
+	},
+	"deepslate_pattern": {
+		"sound": "deepslate"
+	},
+	"blackstone_tiles": {
+		"sound": "stone"
+	},
+	"incubator": {
+		"sound": "metal"
+	},
+	"honeycomb_bricks": {
+		"sound": "honey_block"
+	},
+	"red_nether_brick_pillar": {
+		"sound": "nether_brick"
+	},
+	"obsidian_bricks": {
+		"sound": "stone"
+	},
+	"eye_jar": {
+		"sound": "glass"
+	},
+	"head_jar": {
+		"sound": "glass"
+	},
+	"cookie_jar": {
+		"sound": "glass"
+	},
+	"glass_jar": {
+		"sound": "glass"
+	},
+	"deepslate_pillar": {
+		"sound": "stone"
+	},
+	"sheet_metal_grate": {
+		"sound": "copper"
+	},
+	"cut_sheet_metal": {
+		"sound": "copper"
+	},
+	"varied_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"fancy_glass": {
+		"sound": "glass"
+	},
+	"not_deer_trophy": {
+		"sound": "cloth"
+	},
+	"ender_block": {
+		"sound": "metal"
+	},
+	"ender_ore": {
+		"sound": "stone"
+	},
+	"reinforced_glass": {
+		"sound": "glass"
+	},
+	"chorus_planks": {
+		"sound": "wood"
+	},
+	"chorus_stem": {
+		"sound": "wood"
+	},
+	"chorus_wood": {
+		"sound": "wood"
+	},
+	"nether_brick_pillar": {
+		"sound": "nether_brick"
+	},
+	"ratstone_block": {
+		"sound": "metal"
+	},
+	"red_sandstone_bricks": {
+		"sound": "stone"
+	},
+	"dirtstone": {
+		"sound": "stone"
+	},
+	"blackstone_pillar": {
+		"sound": "stone"
+	},
+	"diorite_pillar": {
+		"sound": "stone"
+	},
+	"granite_pillar": {
+		"sound": "stone"
+	},
+	"andesite_pillar": {
+		"sound": "stone"
+	},
+	"stone_pillar": {
+		"sound": "stone"
+	},
+	"purpur_bricks": {
+		"sound": "stone"
+	},
+	"basalt_bricks": {
+		"sound": "basalt"
+	},
+	"sandstone_bricks": {
+		"sound": "stone"
+	},
+	"sheet_metal_block": {
+		"sound": "copper"
+	},
+	"industrial_fan": {
+		"sound": "metal"
+	},
+	"hazard_tape": {
+		"sound": "metal"
+	},
+	"dark_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"andesite_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"diorite_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"granite_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"acacia_fence": {
+		"sound": "wood",
+		"textures": "stripped_acacia_log_side"
+	},
+	"spruce_fence": {
+		"sound": "wood",
+		"textures": "stripped_spruce_log_side"
+	},
+	"oak_fence": {
+		"sound": "wood",
+		"textures": "stripped_oak_log_side"
+	},
+	"birch_fence": {
+		"sound": "wood",
+		"textures": "stripped_birch_log_side"
+	},
+	"jungle_fence": {
+		"sound": "wood",
+		"textures": "stripped_jungle_log_side"
+	},
+	"dark_oak_fence": {
+		"sound": "wood",
+		"textures": "stripped_dark_oak_log_side"
+	},
+	"mangrove_fence": {
+		"sound": "wood",
+		"textures": "stripped_mangrove_log_side"
+	},
+	"cherry_fence": {
+		"sound": "wood",
+		"textures": "stripped_cherry_log_side"
+	},
+	"crimson_fence": {
+		"sound": "wood",
+		"textures": "stripped_crimson_stem_side"
+	},
+	"warped_fence": {
+		"sound": "wood",
+		"textures": "stripped_warped_stem_side"
+	},
+	"acacia_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_acacia_log_side"
+	},
+	"spruce_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_spruce_log_side"
+	},
+	"fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_oak_log_side"
+	},
+	"birch_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_birch_log_side"
+	},
+	"jungle_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_jungle_log_side"
+	},
+	"dark_oak_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_dark_oak_log_side"
+	},
+	"mangrove_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_mangrove_log_side"
+	},
+	"cherry_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_cherry_log_side"
+	},
+	"crimson_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_crimson_stem_side"
+	},
+	"warped_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_warped_stem_side"
+	},
+	"sandstone_quoin_right": {
+		"sound": "stone"
+	},
+	"sandstone_quoin_left": {
+		"sound": "stone"
+	},
+	"glowshroom": {
+		"sound": "grass"
+	},
+	"wood_banister_corner": {
+		"sound": "wood"
+	},
+	"wood_banister": {
+		"sound": "wood"
+	},
+	"stair_railing": {
+		"sound": "wood"
+	},
+	"twin_wall_light": {
+		"sound": "glass"
+	},
+	"tarmac_slab": {
+		"sound": "stone"
+	},
+	"yeti_trophy": {
+		"sound": "cloth"
+	},
+	"deer_head": {
+		"sound": "cloth"
+	},
+	"railing_steel": {
+		"sound": "stone"
+	},
+	"railing_wood": {
+		"sound": "wood"
+	},
+	"firefly_jar": {
+		"sound": "glass"
+	},
+	"wood_shelf": {
+		"sound": "wood"
+	},
+	"pink_wallpaper": {
+		"sound": "cloth"
+	},
+	"magenta_wallpaper": {
+		"sound": "cloth"
+	},
+	"purple_wallpaper": {
+		"sound": "stone"
+	},
+	"blue_wallpaper": {
+		"sound": "cloth"
+	},
+	"light_blue_wallpaper": {
+		"sound": "cloth"
+	},
+	"cyan_wallpaper": {
+		"sound": "cloth"
+	},
+	"green_wallpaper": {
+		"sound": "stone"
+	},
+	"lime_wallpaper": {
+		"sound": "stone"
+	},
+	"yellow_wallpaper": {
+		"sound": "stone"
+	},
+	"orange_wallpaper": {
+		"sound": "stone"
+	},
+	"red_wallpaper": {
+		"sound": "stone"
+	},
+	"brown_wallpaper": {
+		"sound": "cloth"
+	},
+	"black_wallpaper": {
+		"sound": "cloth"
+	},
+	"grey_wallpaper": {
+		"sound": "cloth"
+	},
+	"light_grey_wallpaper": {
+		"sound": "cloth"
+	},
+	"white_wallpaper": {
+		"sound": "cloth"
+	},
+	"wall_lamp": {
+		"sound": "glass"
+	},
+	"pavement": {
+		"sound": "stone"
+	},
+	"pillow": {
+		"sound": "cloth"
+	},
+	"log_walls": {
+		"sound": "wood"
+	},
+	"teddy_bear": {
+		"sound": "stone"
+	},
+	"bin_outdoor": {
+		"sound": "soul_sand"
+	},
+	"pale_bricks": {
+		"sound": "deepslate_bricks"
+	},
+	"fluorescent_light": {
+		"sound": "glass"
+	},
+	"steel_fence": {
+		"sound": "stone"
+	},
+	"eldritch_rubber_ducky": {
+		"sound": "stone"
+	},
+	"garage_door": {
+		"sound": "stone"
+	},
+	"yellow_lines": {
+		"sound": "stone"
+	},
+	"parking_space": {
+		"sound": "stone"
+	},
+	"tarmac": {
+		"sound": "stone"
+	},
+	"stone_tiles": {
+		"sound": "stone"
+	},
+	"regent_tiles": {
+		"sound": "bone_block"
+	},
+	"panel_fence": {
+		"sound": "wood"
+	},
+	"street_lamp": {
+		"sound": "glass"
+	},
+	"street_lamp_body": {
+		"sound": "netherite"
+	},
+	"street_lamp_base": {
+		"sound": "netherite"
+	},
+	"checkered_tile": {
+		"sound": "bone_block"
+	}
+}
