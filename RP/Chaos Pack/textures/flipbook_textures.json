@@ -1,0 +1,29 @@
+// Do not copy this file directly into your resource pack as a starter; instead, use this file as a reference or to copy specific JSON snippets.
+[
+  {
+    "flipbook_texture": "textures/blocks/industry/industrial_fan",
+    "atlas_tile": "industrial_fan",
+    "ticks_per_frame": 2,
+    "blend_frames": false
+  },
+  {
+    "flipbook_texture": "textures/blocks/chorus_stem",
+    "atlas_tile": "chorus_stem",
+    "ticks_per_frame": 15
+  },
+  {
+    "flipbook_texture": "textures/blocks/chorus_wood",
+    "atlas_tile": "chorus_wood",
+    "ticks_per_frame": 15
+  },
+  {
+    "flipbook_texture": "textures/blocks/chorus_wood",
+    "atlas_tile": "chorus_plant",
+    "ticks_per_frame": 15
+  },
+  {
+    "flipbook_texture": "textures/blocks/obsidian_bricks",
+    "atlas_tile": "obsidian_bricks",
+    "ticks_per_frame": 15
+  }
+]
