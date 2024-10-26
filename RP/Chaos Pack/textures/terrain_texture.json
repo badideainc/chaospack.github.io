@@ -4,6 +4,15 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"dirt_slab": {
+			"textures": "textures/blocks/dirt.png"
+		},
+		"flint_stone": {
+			"textures": "textures/blocks/flint_stone.png"
+		},
+		"cobbled_sandstone": {
+			"textures": "textures/blocks/cobbled_sandstone.png"
+		},
 		"stair_railing_left": {
 			"textures": "textures/blocks/planks_spruce.png"
 		},
