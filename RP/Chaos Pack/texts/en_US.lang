@@ -254,3 +254,5 @@ item.spawn_egg.entity.chaospack:clown_creeper.name=Spawn Clown Creeper
 item.chaospack:clown_nose=Clown Nose
 tile.chaospack:polished_glowstone.name=Polished Glowstone
 tile.chaospack:stair_railing_left.name=Stair Railing (Left)
+tile.chaospack:cobbled_sandstone.name=Cobbled Sandstone
+tile.chaospack:flint_stone.name=Flint Stone
