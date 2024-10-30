@@ -22,7 +22,7 @@
     "ticks_per_frame": 15
   },
   {
-    "flipbook_texture": "textures/blocks/obsidian_bricks",
+    "flipbook_texture": "textures/blocks/bricks/obsidian_bricks",
     "atlas_tile": "obsidian_bricks",
     "ticks_per_frame": 15
   }
