@@ -81,6 +81,18 @@
 						{
 							"path": "textures/blocks/bricks/varied_bricks2",
 							"weight": 1
+						},
+						{
+							"path": "textures/blocks/bricks/varied_bricks3",
+							"weight": 1
+						},
+						{
+							"path": "textures/blocks/bricks/varied_bricks4",
+							"weight": 1
+						},
+						{
+							"path": "textures/blocks/bricks/varied_bricks5",
+							"weight": 1
 						}
 					]
 				}
