@@ -18,12 +18,7 @@
 				"explosion_resistance": 30
 			},
 			"minecraft:geometry": "geometry.block",
-			"minecraft:material_instances": {
-				"*": {
-					"texture": "varied_bricks",
-					"render_method": "opaque"
-				}
-			},
+
 			"minecraft:light_dampening": 15,
 			"minecraft:map_color": "#a37163"
 		}
