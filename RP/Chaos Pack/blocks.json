@@ -67,6 +67,7 @@
 		"sound": "copper"
 	},
 	"varied_bricks": {
+		"textures": "varied_bricks",
 		"sound": "deepslate_bricks"
 	},
 	"fancy_glass": {
