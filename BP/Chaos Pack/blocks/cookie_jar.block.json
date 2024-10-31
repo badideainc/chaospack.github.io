@@ -9,7 +9,7 @@
 			},
 			"traits": {
 				"minecraft:placement_direction": {
-					"enabled_states": [ "minecraft:cardinal_direction" ]
+					"enabled_states": [ "minecraft:cardinal_direction", "minecraft:facing_direction" ]
 				}
 			}
 		},
@@ -68,6 +68,22 @@
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [ 0, 270, 0 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'up' ",
+				"components": {
+					"minecraft:transformation": {
+						"translation": [ 0, 0.44, 0 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'down' ",
+				"components": {
+					"minecraft:transformation": {
+						"translation": [ 0, 0, 0 ]
 					}
 				}
 			}
