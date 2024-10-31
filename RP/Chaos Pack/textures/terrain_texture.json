@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"skull_candle": {
+			"textures": "textures/blocks/skull_candle.png"
+		},
 		"stripped_bamboo_planks": {
 			"textures": "textures/blocks/stripped_bamboo_planks.png"
 		},
@@ -507,25 +510,25 @@
 			"textures": "textures/blocks/dirt_podzol_top"
 		},
 		"grass_path_side": {
-			"textures": [ "textures/blocks/grass_path_top" ]
+			"textures": ["textures/blocks/grass_path_top"]
 		},
 		"grass_path_top": {
-			"textures": [ "textures/blocks/grass_path_top" ]
+			"textures": ["textures/blocks/grass_path_top"]
 		},
 		"mycelium_bottom": {
-			"textures": [ "textures/blocks/mycelium_top", "textures/blocks/snow" ]
+			"textures": ["textures/blocks/mycelium_top", "textures/blocks/snow"]
 		},
 		"mycelium_side": {
-			"textures": [ "textures/blocks/mycelium_top", "textures/blocks/snow" ]
+			"textures": ["textures/blocks/mycelium_top", "textures/blocks/snow"]
 		},
 		"mycelium_top": {
-			"textures": [ "textures/blocks/mycelium_top", "textures/blocks/snow" ]
+			"textures": ["textures/blocks/mycelium_top", "textures/blocks/snow"]
 		},
 		"farmland": {
-			"textures": [ "textures/blocks/farmland_wet", "textures/blocks/farmland_dry" ]
+			"textures": ["textures/blocks/farmland_wet", "textures/blocks/farmland_dry"]
 		},
 		"farmland_side": {
-			"textures": [ "textures/blocks/farmland_wet", "textures/blocks/farmland_dry" ]
+			"textures": ["textures/blocks/farmland_wet", "textures/blocks/farmland_dry"]
 		},
 		"bookshelf": {
 			"textures": [
@@ -758,31 +761,19 @@
 			]
 		},
 		"chest_inventory": {
-			"textures": [
-				"textures/blocks/chests/chest_top",
-				"textures/blocks/chests/chest_side",
-				"textures/blocks/chests/chest_front"
-			]
+			"textures": ["textures/blocks/chests/chest_top", "textures/blocks/chests/chest_side", "textures/blocks/chests/chest_front"]
 		},
 		"chest_inventory_top": {
-			"textures": [
-				"textures/blocks/chests/chest_top"
-			]
+			"textures": ["textures/blocks/chests/chest_top"]
 		},
 		"chest_inventory_side": {
-			"textures": [
-				"textures/blocks/chests/chest_side"
-			]
+			"textures": ["textures/blocks/chests/chest_side"]
 		},
 		"chest_inventory_front": {
-			"textures": [
-				"textures/blocks/chests/chest_front"
-			]
+			"textures": ["textures/blocks/chests/chest_front"]
 		},
 		"trapped_chest_inventory_front": {
-			"textures": [
-				"textures/blocks/chests/trapped_chest_front"
-			]
+			"textures": ["textures/blocks/chests/trapped_chest_front"]
 		},
 		"stripped_oak_log_top": {
 			"textures": "textures/blocks/stripped/stripped_oak_log_top"
