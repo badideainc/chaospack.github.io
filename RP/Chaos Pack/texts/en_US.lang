@@ -257,3 +257,7 @@ tile.chaospack:stair_railing_left.name=Stair Railing (Left)
 tile.chaospack:cobbled_sandstone.name=Cobbled Sandstone
 tile.chaospack:flint_stone.name=Flint Stone
 tile.chaospack:dirt_slab.name=Dirt Slab
+tile.chaospack:bamboo_wood.name=Bamboo Wood
+tile.chaospack:stripped_bamboo_wood.name=Stripped Bamboo Wood
+tile.chaospack:stripped_bamboo_planks.name=Stripped Bamboo Planks
+tile.chaospack:skull_candle.name=Skull Candle
