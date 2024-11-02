@@ -8,8 +8,8 @@
 				"group": "itemGroup.name.jar"
 			},
 			"traits": {
-				"minecraft:placement_direction": {
-					"enabled_states": [ "minecraft:facing_direction" ]
+				"minecraft:placement_position": {
+					"enabled_states": [ "minecraft:vertical_half" ]
 				}
 			}
 		},
@@ -39,16 +39,16 @@
 			"minecraft:map_color": "#e6f6fe"
 		},
 		"permutations": [
-			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'up' ",
+			{ // upper_slab
+				"condition": "query.block_state('minecraft:vertical_half') == 'top'",
 				"components": {
 					"minecraft:transformation": {
-						"translation": [ 0, 0.44, 0 ]
+						"translation": [ 0, 0.5, 0 ]
 					}
 				}
 			},
-			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'down' ",
+			{ // lower_slab
+				"condition": "query.block_state('minecraft:vertical_half') == 'bottom'",
 				"components": {
 					"minecraft:transformation": {
 						"translation": [ 0, 0, 0 ]
