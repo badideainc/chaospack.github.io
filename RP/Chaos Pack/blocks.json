@@ -234,6 +234,14 @@
 		"sound": "wood",
 		"textures": "stripped_warped_stem_side"
 	},
+	"pale_oak_fence": {
+		"sound": "wood",
+		"textures": "stripped_pale_oak_log_side"
+	},
+	"pale_oak_fence_gate": {
+		"sound": "wood",
+		"textures": "stripped_pale_oak_log_side"
+	},
 	"sandstone_quoin_right": {
 		"sound": "stone"
 	},

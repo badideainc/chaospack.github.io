@@ -1,6 +1,18 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"chaospack:tumbleweed": {
+				"events": {
+					"death": "brush.suspicious_sand",
+					"hurt": "brush.suspicious_sand",
+					"step": {
+						"sound": "brush.suspicious_sand",
+						"volume": 0.65
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"chaospack:clown_creeper": {
 				"events": {
 					"death": "mob.clowncreeper.death",
