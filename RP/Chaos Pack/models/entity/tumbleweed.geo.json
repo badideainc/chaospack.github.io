@@ -1,0 +1,46 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tumbleweed",
+				"texture_width": 32,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 7, 0]
+				},
+				{
+					"name": "Vertical",
+					"parent": "root",
+					"pivot": [0, 7, 0],
+					"cubes": [
+						{"origin": [-8, 0, 0], "size": [16, 16, 0.1], "uv": [0, 0]},
+						{"origin": [-13, 0, -0.3], "size": [16, 16, 0.1], "pivot": [-3, 0, 6], "rotation": [0, -45, 0], "uv": [0, 0]},
+						{"origin": [-26, 0, -3.7], "size": [16, 16, 0.1], "pivot": [-10, 0, 2], "rotation": [0, -135, 0], "uv": [0, 0]},
+						{"origin": [-16, 0, -4], "size": [16, 16, 0.1], "pivot": [-6, 0, 2], "rotation": [0, -90, 0], "uv": [0, 0]}
+					],
+					"locators": {
+						"lead": [0, 20, -8]
+					}
+				},
+				{
+					"name": "Horizontal",
+					"parent": "root",
+					"pivot": [0, 7, 0],
+					"rotation": [-90, 0, 0],
+					"cubes": [
+						{"origin": [-8, -1, 0], "size": [16, 16, 0.1], "uv": [0, 0]},
+						{"origin": [-13, -1, -0.3], "size": [16, 16, 0.1], "pivot": [-3, -1, 6], "rotation": [0, -45, 0], "uv": [0, 0]},
+						{"origin": [-26, -1, -3.7], "size": [16, 16, 0.1], "pivot": [-10, -1, 2], "rotation": [0, -135, 0], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
