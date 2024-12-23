@@ -20,7 +20,7 @@
           "min": 120,
           "max": 140,
           "identifier": "chaospack:not_deer",
-          "spawn_chance": 100
+          "spawn_chance": 20
         },
         "minecraft:brightness_filter": {
           "min": 0,
@@ -28,7 +28,7 @@
           "adjust_for_weather": false
         },
         "minecraft:weight": {
-          "default": 100
+          "default": 20
         },
         "minecraft:biome_filter": {
           "any_of": [
