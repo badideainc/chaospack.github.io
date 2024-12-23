@@ -1,4 +1,7 @@
 {
+	"amethyst_bricks": {
+		"sound": "amethyst_block"
+	},
 	"skull_candle": {
 		"sound": "bone_block"
 	},
