@@ -16,7 +16,7 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 30
 			},
-			"minecraft:geometry": "geometry.mud_tiles",
+			"minecraft:geometry": "geometry.block",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "mud_tiles",
