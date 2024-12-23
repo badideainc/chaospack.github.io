@@ -13,7 +13,7 @@
 			"minecraft:selection_box": true,
 
 			"minecraft:loot": "loot_tables/blocks/ender_ore.json", // Won't be dropped if using Silk Touch.
-			"minecraft:custom_components": [ "chaospack:ender_ore_xp_reward" ],
+			//"minecraft:custom_components": [ "chaospack:ender_ore_xp_reward" ],
 
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.6
