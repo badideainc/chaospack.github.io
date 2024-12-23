@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:mud_tiles",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.mud_tiles",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "mud_tiles",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#8c674f"
+		}
+	}
+}
