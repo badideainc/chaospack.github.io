@@ -15,8 +15,14 @@
 		},
 		"components": {
 			"tag:wood": {},
-			"minecraft:collision_box": true,
-			"minecraft:selection_box": true,
+			"minecraft:collision_box": {
+				"origin": [ -6, 0, -6 ],
+				"size": [ 12, 16, 12 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -6, 0, -6 ],
+				"size": [ 12, 16, 12 ]
+			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 1
 			},
@@ -27,7 +33,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "bin_outdoor",
-					"render_method": "opaque"
+					"render_method": "alpha_test"
 				}
 			},
 			"minecraft:light_dampening": 15,
