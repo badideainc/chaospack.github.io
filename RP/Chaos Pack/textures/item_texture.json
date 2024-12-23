@@ -1,5 +1,14 @@
 {
 	"texture_data": {
+		"gingerbread_man": {
+			"textures": "textures/items/gingerbread_man.png"
+		},
+		"candy_cane": {
+			"textures": "textures/items/candy_cane.png"
+		},
+		"festive_hat": {
+			"textures": "textures/items/festive_hat.png"
+		},
 		"clown_nose": {
 			"textures": "textures/items/clown_nose.png"
 		},
