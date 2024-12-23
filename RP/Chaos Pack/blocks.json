@@ -1,4 +1,7 @@
 {
+	"mud_tiles": {
+		"sound": "mud_bricks"
+	},
 	"amethyst_bricks": {
 		"sound": "amethyst_block"
 	},
