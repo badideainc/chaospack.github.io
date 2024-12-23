@@ -22,8 +22,8 @@
           "max": "hard"
         },
         "minecraft:delay_filter": {
-          "min": 420,
-          "max": 450,
+          "min": 300,
+          "max": 350,
           "identifier": "chaospack:herobrine",
           "spawn_chance": 20
         },
