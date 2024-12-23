@@ -4,6 +4,9 @@
 	"padding": 8,
 	"num_mip_levels": 4,
 	"texture_data": {
+		"mud_tiles": {
+			"textures": "textures/blocks/tiles/mud_tiles.png"
+		},
 		"amethyst_bricks": {
 			"textures": "textures/blocks/bricks/amethyst_bricks.png"
 		},
