@@ -17,7 +17,6 @@
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 30
 			},
-			"minecraft:geometry": "geometry.block",
 
 			"minecraft:light_dampening": 15,
 			"minecraft:map_color": "#a37163"
