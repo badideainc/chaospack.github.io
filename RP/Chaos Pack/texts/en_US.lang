@@ -266,3 +266,6 @@ item.spawn_egg.entity.chaospack:tumbleweed.name=Spawn Tumbleweed
 entity.chaospack:tumbleweed.name=Tumbleweed
 item.spawn_egg.entity.chaospack:tumbleweed.name=Spawn Tumbleweed
 entity.chaospack:herobrine.name=Herobrine
+item.chaospack:festive_hat=Festive Hat
+item.chaospack:candy_cane=Candy Cane
+item.chaospack:gingerbread_man=Gingerbread Man
