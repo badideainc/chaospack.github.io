@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:amethyst_bricks"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:amethyst_block"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_block"
+			}
+		],
+		"result": {
+			"item": "chaospack:amethyst_bricks",
+			"count": 4
+		}
+	}
+}
