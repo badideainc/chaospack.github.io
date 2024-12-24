@@ -13,10 +13,6 @@
 			"minecraft:icon": {
 				"texture": "gingerbread_man"
 			},
-			"minecraft:enchantable": {
-				"slot": "sword",
-				"value": 1
-			},
 			"minecraft:food": {
 				"nutrition": 8,
 				"saturation_modifier": 1
