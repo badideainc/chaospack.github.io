@@ -4,7 +4,8 @@
 		"description": {
 			"identifier": "chaospack:mud_tiles",
 			"menu_category": {
-				"category": "construction"
+				"category": "construction",
+				"group": "itemGroup.name.stone_decor"
 			}
 		},
 		"components": {
