@@ -13,14 +13,18 @@
           "minecraft:podzol",
           "minecraft:dirt"
         ],
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
         "minecraft:world_age_filter": {
           "min": 6000
         },
         "minecraft:delay_filter": {
-          "min": 120,
-          "max": 140,
+          "min": 50,
+          "max": 70,
           "identifier": "chaospack:not_deer",
-          "spawn_chance": 20
+          "spawn_chance": 50
         },
         "minecraft:brightness_filter": {
           "min": 0,
@@ -28,7 +32,7 @@
           "adjust_for_weather": false
         },
         "minecraft:weight": {
-          "default": 20
+          "default": 50
         },
         "minecraft:biome_filter": {
           "any_of": [
@@ -44,9 +48,9 @@
             }
           ]
         },
-        "minecraft:density_limit": {
-          "surface": 1,
-          "underground": 0
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
         }
       }
     ]
