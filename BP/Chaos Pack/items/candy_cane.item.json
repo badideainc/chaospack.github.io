@@ -13,6 +13,10 @@
 			"minecraft:icon": {
 				"texture": "candy_cane"
 			},
+			"minecraft:damage": 2,
+			"minecraft:durability": {
+				"max_durability": 5
+			},
 			"minecraft:enchantable": {
 				"slot": "sword",
 				"value": 1
@@ -25,7 +29,25 @@
 				"movement_modifier": 0.32,
 				"use_duration": 1.6
 			},
-			"minecraft:use_animation": "eat"
+			"minecraft:use_animation": "eat",
+
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:cocoa",
+						"speed": 7
+					}
+				]
+			}
 		}
 	}
 }
