@@ -5,7 +5,7 @@
 			"identifier": "chaospack:deepslate_pattern",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.stone_decor"
+				"group": "itemGroup.name.tiles"
 			}
 		},
 		"components": {
