@@ -24,6 +24,7 @@
 					"render_method": "opaque"
 				}
 			},
+			"minecraft:light_dampening": 15,
 			"minecraft:map_color": "#8c674f"
 		}
 	}
