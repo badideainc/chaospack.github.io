@@ -30,6 +30,11 @@
 				},
 				"minecraft:behavior.melee_attack": {
 					"priority": 2
+				},
+				"minecraft:boss": {
+					"should_darken_sky": true,
+					"name": "§hNot Deer",
+					"hud_range": 55
 				}
 			}
 		},
