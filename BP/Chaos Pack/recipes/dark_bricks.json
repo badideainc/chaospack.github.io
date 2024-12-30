@@ -7,7 +7,9 @@
 
 		"tags": [ "crafting_table" ],
 		"pattern": [
-			"#P"
+			"###",
+			"#P#",
+			"###"
 		],
 		"key": {
 			"P": {
@@ -25,7 +27,7 @@
 		],
 		"result": {
 			"item": "chaospack:dark_bricks",
-			"count": 1
+			"count": 8
 		}
 	}
 }
