@@ -271,3 +271,5 @@ item.chaospack:candy_cane=Candy Cane
 item.chaospack:gingerbread_man=Gingerbread Man
 tile.chaospack:amethyst_bricks.name=Amethyst Bricks
 tile.chaospack:mud_tiles.name=Mud Tiles
+entity.chaospack:soul_spirit.name=Soul Spirit
+item.spawn_egg.entity.chaospack:soul_spirit.name=Spawn Soul Spirit
