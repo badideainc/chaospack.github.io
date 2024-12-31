@@ -1,6 +1,16 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"chaospack:soul_spirit": {
+				"events": {
+					"ambient": "mob.allay.idle",
+					"ambient.tame": "mob.allay.idle_holding",
+					"death": "mob.allay.death",
+					"hurt": "mob.allay.hurt"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"chaospack:tumbleweed": {
 				"events": {
 					"death": "brush.suspicious_sand",

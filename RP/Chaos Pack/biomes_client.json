@@ -1,0 +1,25 @@
+/*
+ - Default is the settings that a biome will use if it is not specified.
+ - All fields in a biome are optional default values will overwrite the missing ones.
+ - If the default is overwritten in a resource pack then it will overwrite all biomes unless the resource pack defines the biomes.
+ - Vanilla 1.20.0
+  */
+{
+  "biomes": {
+    "pale_garden": {
+      "water_surface_color": "#e7e7e7",
+      "water_surface_transparency": 0.65,
+      "minecraft:sky_color": "#e7e7e7",
+      "fog_identifier": "minecraft:fog_deep_frozen_ocean",
+      "fog_colour": "#e7e7e7",
+      "remove_all_prior_fog": false,
+      "inherit_from_prior_fog": false
+    },
+    "roofed_forest": {
+      "water_surface_color": "#3B6CD1",
+      "minecraft:sky_color": "#0b172d",
+      "fog_identifier": "minecraft:fog_roofed_forest",
+      "inherit_from_prior_fog": false
+    }
+  }
+}
