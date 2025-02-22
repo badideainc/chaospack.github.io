@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "minecraft:obsidian"
+				"item": "chaospack:metal_sheet"
 			},
 			"P": {
 				"item": "minecraft:glass"
@@ -21,7 +21,7 @@
 		},
 		"unlock": [
 			{
-				"item": "minecraft:obsidian"
+				"item": "chaospack:metal_sheet"
 			},
 			{
 				"item": "minecraft:glass"

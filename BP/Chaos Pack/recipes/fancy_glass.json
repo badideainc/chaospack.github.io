@@ -13,7 +13,7 @@
 		],
 		"key": {
 			"#": {
-				"item": "chaospack:metal_sheet"
+				"item": "minecraft:gold_ingot"
 			},
 			"P": {
 				"item": "minecraft:glass"
@@ -21,7 +21,7 @@
 		},
 		"unlock": [
 			{
-				"item": "chaospack:metal_sheet"
+				"item": "minecraft:gold_ingot"
 			},
 			{
 				"item": "minecraft:glass"
