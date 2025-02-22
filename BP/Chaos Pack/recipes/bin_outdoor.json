@@ -7,8 +7,7 @@
 
 		"tags": [ "crafting_table" ],
 		"pattern": [
-			"###",
-			"x x",
+			" # ",
 			"#P#"
 		],
 		"key": {
@@ -16,10 +15,7 @@
 				"item": "minecraft:cactus"
 			},
 			"#": {
-				"item": "minecraft:blackstone"
-			},
-			"x": {
-				"item": "minecraft:gold_ingot"
+				"item": "chaospack:metal_sheet"
 			}
 		},
 		"unlock": [
