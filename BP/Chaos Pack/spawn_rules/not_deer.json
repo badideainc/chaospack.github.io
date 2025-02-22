@@ -21,10 +21,10 @@
           "min": 6000
         },
         "minecraft:delay_filter": {
-          "min": 50,
-          "max": 70,
+          "min": 15,
+          "max": 25,
           "identifier": "chaospack:not_deer",
-          "spawn_chance": 50
+          "spawn_chance": 20
         },
         "minecraft:brightness_filter": {
           "min": 0,
