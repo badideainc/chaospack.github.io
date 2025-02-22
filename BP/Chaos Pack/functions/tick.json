@@ -1,0 +1,6 @@
+{
+  "values": [
+    "events/world/on_initialise",
+    "events/player/on_death"
+  ]
+}
