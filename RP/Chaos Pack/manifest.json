@@ -23,5 +23,28 @@
 			"version": [1, 0, 0],
 			"capabilities": ["pbr"]
 		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "summer",
+			"name": "Summer",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "autumn",
+			"name": "Autumn",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "spring",
+			"name": "Spring",
+			"memory_tier": 1
+		}
+	],
+	"settings": [
+		{
+			"type": "label",
+			"text": "The chaotic soup you call a behavior pack!"
+		}
 	]
 }

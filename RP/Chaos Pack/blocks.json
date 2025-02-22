@@ -1,4 +1,16 @@
 {
+	"smooth_andesite": {
+		"sound": "stone"
+	},
+	"smooth_granite": {
+		"sound": "stone"
+	},
+	"smooth_diorite": {
+		"sound": "stone"
+	},
+	"concrete_powder": {
+		"sound": "sand"
+	},
 	"mud_tiles": {
 		"sound": "mud_bricks"
 	},
@@ -25,9 +37,6 @@
 	},
 	"cobbled_sandstone": {
 		"sound": "stone"
-	},
-	"stair_railing_left": {
-		"sound": "wood"
 	},
 	"polished_glowstone": {
 		"sound": "glass"
