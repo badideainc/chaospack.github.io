@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"sawdust": {
+			"textures": "textures/items/sawdust.png"
+		},
 		"gingerbread_man": {
 			"textures": "textures/items/gingerbread_man.png"
 		},
