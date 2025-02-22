@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:slime_dye"
+		},
+
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "chaospack:rubber"
+			},
+			{
+				"item": "minecraft:dye",
+				"data": 10
+			}
+		],
+		"unlock": [
+			{
+				"item": "chaospack:rubber"
+			},
+			{
+				"item": "minecraft:dye",
+				"data": 10
+			}
+		],
+		"result": {
+			"item": "minecraft:slime_ball"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:smooth_andesite"
+		},
+
+		"unlock": [
+			{
+				"item": "minecraft:andesite"
+			}
+		],
+		"tags": [ "furnace", "blast_furnace"],
+		"input": "minecraft:andesite",
+		"output": "chaospack:smooth_andesite"
+	}
+}

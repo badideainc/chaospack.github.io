@@ -1,34 +1,17 @@
 {
 	"format_version": "1.20.50",
-	"minecraft:recipe_shaped": {
+	"minecraft:recipe_furnace": {
 		"description": {
 			"identifier": "chaospack:tarmac"
 		},
 
-		"tags": [ "crafting_table" ],
-		"pattern": [
-			"#P",
-			"P#"
-		],
-		"key": {
-			"#": {
-				"item": "minecraft:cobblestone"
-			},
-			"P": {
-				"item": "minecraft:blackstone"
-			}
-		},
 		"unlock": [
 			{
-				"item": "cobblestone"
-			},
-			{
-				"item": "blackstone"
+				"item": "chaospack:concrete_powder"
 			}
 		],
-		"result": {
-			"item": "chaospack:tarmac",
-			"count": 4
-		}
+		"tags": [ "furnace", "blast_furnace" ],
+		"input": "chaospack:concrete_powder",
+		"output": "chaospack:tarmac"
 	}
 }
