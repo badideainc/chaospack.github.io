@@ -7,13 +7,20 @@
 				"category": "construction",
 				"group": "itemGroup.name.pavement"
 			},
+			"states": {
+				"chaospack:light_on": [ true, false ]
+			},
 			"traits": {
 				"minecraft:placement_direction": {
-					"enabled_states": [ "minecraft:facing_direction" ]
+					"enabled_states": [ "minecraft:cardinal_direction" ]
+				},
+				"minecraft:placement_position": {
+					"enabled_states": [ "minecraft:vertical_half" ]
 				}
 			}
 		},
 		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_light_switch" ],
 			"minecraft:collision_box": {
 				"origin": [ -6, 8, -8 ],
 				"size": [ 12, 8, 16 ]
@@ -42,7 +49,7 @@
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'north' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && query.block_state('minecraft:vertical_half') == 'top' && q.block_state('chaospack:light_on')",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [ 0, 180, 0 ]
@@ -50,7 +57,7 @@
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'south' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && query.block_state('minecraft:vertical_half') == 'top' && q.block_state('chaospack:light_on') ",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [ 0, 0, 0 ]
@@ -58,7 +65,7 @@
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'east' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && query.block_state('minecraft:vertical_half') == 'top' && q.block_state('chaospack:light_on') ",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [ 0, 90, 0 ]
@@ -66,27 +73,190 @@
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'west' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && query.block_state('minecraft:vertical_half') == 'top' && q.block_state('chaospack:light_on') ",
 				"components": {
 					"minecraft:transformation": {
 						"rotation": [ 0, 270, 0 ]
 					}
 				}
 			},
+
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'up' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && query.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('chaospack:light_on') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [ -90, 0, 0 ]
+						"rotation": [ 0, 180, 0 ],
+						"translation": [ 0, -0.5, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:facing_direction') == 'down' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && query.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('chaospack:light_on') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [ 90, 0, 0 ]
+						"rotation": [ 0, 0, 0 ],
+						"translation": [ 0, -0.5, 0 ]
 					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && query.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && query.block_state('minecraft:vertical_half') == 'bottom' && q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					}
+				}
+			},
+			//
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && query.block_state('minecraft:vertical_half') == 'top' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && query.block_state('minecraft:vertical_half') == 'top' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 0, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && query.block_state('minecraft:vertical_half') == 'top' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && query.block_state('minecraft:vertical_half') == 'top' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && query.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && query.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 0, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && query.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && query.block_state('minecraft:vertical_half') == 'bottom' && !q.block_state('chaospack:light_on') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ],
+						"translation": [ 0, -0.5, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "street_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
 				}
 			}
 		]

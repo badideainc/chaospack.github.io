@@ -12,11 +12,12 @@
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:destructible_by_mining": {
-				"seconds_to_destroy": 0.4
+				"seconds_to_destroy": 0.2
 			},
 			"minecraft:destructible_by_explosion": {
 				"explosion_resistance": 0
 			},
+			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:geometry": "geometry.block",
 			"minecraft:material_instances": {
 				"*": {

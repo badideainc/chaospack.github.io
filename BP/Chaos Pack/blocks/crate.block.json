@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:block": {
+    "description": {
+      "identifier": "chaospack:crate",
+      "menu_category": {
+        "category": "items",
+        "group": "itemGroup.name.props"
+      }
+    },
+    "components": {
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": false,
+      "minecraft:geometry": "geometry.block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "crate"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 2
+      },
+      "minecraft:custom_components": [ "chaospack:align_entity" ]
+    }
+  }
+}

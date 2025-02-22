@@ -31,7 +31,7 @@
 			"minecraft:geometry": "geometry.slab",
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "dirt_slab",
+					"texture": "dirt",
 					"render_method": "alpha_test"
 				}
 			},

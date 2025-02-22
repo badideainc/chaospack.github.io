@@ -12,7 +12,7 @@
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 
-			"tag:planks": {},
+			"tag:minecraft:planks": {},
 
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.5
