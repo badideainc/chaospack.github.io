@@ -1,0 +1,14 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.chaosblock": {
+			"loop": false,
+			"animation_length": 1,
+			"bones": {
+				"bb_main": {
+					"rotation": [ 0, "-q.body_y_rotation + (Math.round(q.body_y_rotation / 90) * 90)", 0 ]
+				}
+			}
+		}
+	}
+}
