@@ -3,7 +3,7 @@
 	"minecraft:entity": {
 		"description": {
 			"identifier": "chaospack:crate",
-			"is_spawnable": true,
+			"is_spawnable": false,
 			"is_summonable": true,
 			"is_experimental": false
 		},
@@ -11,9 +11,13 @@
 			"minecraft:knockback_resistance": {
 				"value": 1
 			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 1
+			},
 			"minecraft:physics": {
-				"has_gravity": true,
-				"has_collision": true
+				"has_gravity": false,
+				"has_collision": false
 			},
 			"minecraft:inventory": {
 				"container_type": "container",
@@ -33,6 +37,33 @@
 			},
 			"minecraft:loot": {
 				"table": "loot_tables/entities/crate.json"
+			},
+			"minecraft:on_death": {
+				"event": "chaospack:remove_block"
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"tp @e[type=chaospack:crate,r=0.01] ~ ~-0.5 ~"
+							]
+						}
+					}
+				]
+			},
+			"chaospack:remove_block": {
+				"sequence": [
+					{
+						"queue_command": {
+							"command": [
+								"setblock ~ ~ ~ air"
+							]
+						}
+					}
+				]
 			}
 		}
 	}

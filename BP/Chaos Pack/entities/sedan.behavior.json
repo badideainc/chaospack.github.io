@@ -37,22 +37,22 @@
 				"seats": [
 					{
 						"min_rider_count": 0,
-						"max_rider_count": 4,
+						"max_rider_count": 5,
 						"position": [ -0.7, 0.3, 0 ]
 					},
 					{
 						"min_rider_count": 1,
-						"max_rider_count": 4,
+						"max_rider_count": 5,
 						"position": [ 0.2, 0.3, 0 ]
 					},
 					{
 						"min_rider_count": 2,
-						"max_rider_count": 4,
+						"max_rider_count": 5,
 						"position": [ -0.7, 0.2, -0.85 ]
 					},
 					{
 						"min_rider_count": 3,
-						"max_rider_count": 4,
+						"max_rider_count": 5,
 						"position": [ 0.2, 0.2, -0.85 ]
 					},
 					{
