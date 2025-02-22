@@ -7,15 +7,12 @@
 				"default": "entity_alphatest"
 			},
 			"textures": {
-				"default": "textures/entity/crate"
+				"default": "textures/blocks/empty"
 			},
 			"geometry": {
 				"default": "geometry.crate"
 			},
-			"render_controllers": ["controller.render.default"],
-			"spawn_egg": {
-				"texture": "crate_spawn_egg"
-			}
+			"render_controllers": ["controller.render.default"]
 		}
 	}
 }
