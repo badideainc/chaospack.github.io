@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "item",
-					"name": "chaospack:crate_spawn_egg",
+					"name": "chaospack:crate",
 					"weight": 1,
 					"functions": [
 						{
