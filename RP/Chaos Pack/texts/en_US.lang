@@ -281,3 +281,4 @@ tile.chaospack:crate.name=Crate
 tile.chaospack:smooth_diorite.name=Smooth Diorite
 tile.chaospack:smooth_granite.name=Smooth Granite
 tile.chaospack:smooth_andesite.name=Smooth Andesite
+tile.chaospack:pavement_block.name=Pavement Block

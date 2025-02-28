@@ -1,4 +1,7 @@
 {
+	"pavement_block": {
+		"sound": "stone"
+	},
 	"smooth_andesite": {
 		"sound": "stone"
 	},
