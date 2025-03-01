@@ -5,7 +5,7 @@
 		"description": "World Pack Behavior Pack",
 		"uuid": "bc9d831a-46c9-93cb-66ad-8a0ec7112c8e",
 		"version": [1, 0, 0],
-		"min_engine_version": [1, 16, 0]
+		"min_engine_version": [ 1, 19, 73 ]
 	},
 	"metadata": {
 		"authors": ["BadIdeaInc"],
