@@ -282,3 +282,6 @@ tile.chaospack:smooth_diorite.name=Smooth Diorite
 tile.chaospack:smooth_granite.name=Smooth Granite
 tile.chaospack:smooth_andesite.name=Smooth Andesite
 tile.chaospack:pavement_block.name=Pavement Block
+entity.chaospack:solumn.name=Solumn: The Dead Star
+item.spawn_egg.entity.chaospack:solumn.name=Spawn Solumn: The Star Eater
+tile.chaospack:deepslate_trim.name=Deepslate Trim

@@ -1,4 +1,5 @@
 {
+	"format_version": "1.21.60",
 	"pavement_block": {
 		"sound": "stone"
 	},
@@ -44,7 +45,6 @@
 	"polished_glowstone": {
 		"sound": "glass"
 	},
-	"format_version": "1.20.20",
 	"deepslate_fossil_ore": {
 		"sound": "deepslate"
 	},
@@ -79,6 +79,9 @@
 		"sound": "glass"
 	},
 	"deepslate_pillar": {
+		"sound": "stone"
+	},
+	"deepslate_trim": {
 		"sound": "stone"
 	},
 	"sheet_metal_grate": {
