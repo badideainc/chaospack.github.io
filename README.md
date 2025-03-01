@@ -5,3 +5,5 @@ This code can be used for guidance with creating your own packs.
 
 Created By: BadIdeaInc
 Music: Pixabay
+Special Thanks:
+- Bedrock Wiki (Dev)
