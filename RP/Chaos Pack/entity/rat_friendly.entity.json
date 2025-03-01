@@ -16,10 +16,10 @@
 				"default": "geometry.rat_friendly"
 			},
 			"animations": {
-				"setup": "animation.rat_friendly.setup",
-				"walk": "animation.rat_friendly.walk",
+				"setup": "animation.rat.setup",
+				"walk": "animation.rat.walk",
 				"look_at_target": "animation.common.look_at_target",
-				"baby_transform": "animation.rat_friendly.baby_transform"
+				"baby_transform": "animation.rat.baby_transform"
 			},
 			"scripts": {
 				"animate": [
