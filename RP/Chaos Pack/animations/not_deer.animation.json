@@ -36,24 +36,34 @@
 					"position": [0, "- this", 0]
 				},
 				"head": {
-					"rotation": [10, 0, 22.5],
-					"position": [0, 2, 0]
+					"rotation": [35, 0, 40],
+					"position": [1, 2, 0]
 				},
 				"body": {
 					"rotation": [-30, 0, 0],
 					"position": [0, 1, 0]
 				},
 				"rightArm": {
-					"rotation": [-35, 42.5, 0]
+					"rotation": [30, 0, 0],
+					"position": [0, -8, 1]
 				},
 				"leftArm": {
-					"rotation": [-35, -40, 0]
+					"rotation": [30, 0, 0],
+					"position": [0, -8, 2]
 				},
 				"rightLeg": {
 					"rotation": [30, 0, 0]
 				},
 				"leftLeg": {
 					"rotation": [30, 0, 0]
+				},
+				"extArm": {
+					"rotation": [-20, 0, 0],
+					"position": [0, 8, -1]
+				},
+				"extArm2": {
+					"rotation": [-30, 0, 0],
+					"position": [0, 8, -2]
 				}
 			}
 		},
