@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:stardust_block"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:stardust"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:stardust"
+			}
+		],
+		"result": {
+			"item": "chaospack:stardust_block",
+			"count": 1
+		}
+	}
+}
