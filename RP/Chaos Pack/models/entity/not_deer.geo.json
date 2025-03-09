@@ -54,6 +54,14 @@
 					]
 				},
 				{
+					"name": "extArm2",
+					"parent": "rightArm",
+					"pivot": [-8, 0, 0],
+					"cubes": [
+						{"origin": [-5.9, 2.98432, -6.8], "size": [3.8, 12, 3.8], "uv": [4, 46], "mirror": true}
+					]
+				},
+				{
 					"name": "rightItem",
 					"parent": "rightArm",
 					"pivot": [-8, 19, 1]
@@ -66,6 +74,14 @@
 					"mirror": true,
 					"cubes": [
 						{"origin": [2, -0.01568, -6.96801], "size": [4, 15, 4], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "extArm",
+					"parent": "leftArm",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [2.1, 2.98432, -6.8], "size": [3.8, 12, 3.8], "uv": [4, 46], "mirror": true}
 					]
 				},
 				{
