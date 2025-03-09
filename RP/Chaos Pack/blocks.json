@@ -1,5 +1,11 @@
 {
 	"format_version": "1.21.60",
+	"solumn_trophy": {
+		"sound": "cloth"
+	},
+	"stardust_block": {
+		"sound": "metal"
+	},
 	"pavement_block": {
 		"sound": "stone"
 	},
