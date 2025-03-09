@@ -154,12 +154,23 @@
 				}
 			},
 			"minecraft:become_angry": {
-				"remove": {
-					"component_groups": ["minecraft:not_deer_calm"]
-				},
-				"add": {
-					"component_groups": ["minecraft:not_deer_angry"]
-				}
+				"sequence": [
+					{
+						"remove": {
+							"component_groups": [ "minecraft:not_deer_calm" ]
+						},
+						"add": {
+							"component_groups": [ "minecraft:not_deer_angry" ]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"effect @a[r=50] blindness 60"
+							]
+						}
+					}
+				]
 			},
 			"minecraft:on_calm": {
 				"remove": {
