@@ -1,10 +1,13 @@
 {
 	"format_version": "1.21.60",
+	"diamond_glass": {
+		"sound": "glass"
+	},
 	"solumn_trophy": {
 		"sound": "cloth"
 	},
 	"stardust_block": {
-		"sound": "metal"
+		"sound": "amethyst_block"
 	},
 	"pavement_block": {
 		"sound": "stone"
