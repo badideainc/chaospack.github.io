@@ -1,0 +1,35 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:solumn",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/solumn/solumn",
+				"shooting": "textures/entity/solumn/shooting"
+			},
+			"geometry": {
+				"default": "geometry.solumn"
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#ffcb45"
+			},
+			"animations": {
+				"move": "animation.solumn.move",
+				"scale": "animation.solumn.scale"
+			},
+			"animation_controllers": [
+				{
+					"move": "controller.animation.ghast.move"
+				},
+				{
+					"scale": "controller.animation.ghast.scale"
+				}
+			],
+			"render_controllers": ["controller.render.ghast"]
+		}
+	}
+}
