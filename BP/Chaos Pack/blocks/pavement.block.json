@@ -5,7 +5,7 @@
 			"identifier": "chaospack:pavement",
 			"menu_category": {
 				"category": "construction",
-				"group": "itemGroup.name.slab"
+				"group": "itemGroup.name.pavement"
 			},
 			"traits": {
 				"minecraft:placement_position": {
