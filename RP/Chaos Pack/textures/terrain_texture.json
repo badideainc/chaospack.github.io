@@ -408,8 +408,14 @@
 		"smooth_granite": {
 			"textures": "textures/blocks/stone/smooth_granite.png"
 		},
+		"solumn_trophy": {
+			"textures": "textures/blocks/trophy/solumn_trophy.png"
+		},
 		"stair_railing": {
 			"textures": "textures/blocks/planks_spruce.png"
+		},
+		"stardust_block": {
+			"textures": "textures/blocks/gem/stardust_block.png"
 		},
 		"stone_pillar": {
 			"textures": "textures/blocks/pillar/stone_pillar.png"

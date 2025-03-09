@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"stardust": {
+			"textures": "textures/items/stardust.png"
+		},
 		"sawdust": {
 			"textures": "textures/items/sawdust.png"
 		},
