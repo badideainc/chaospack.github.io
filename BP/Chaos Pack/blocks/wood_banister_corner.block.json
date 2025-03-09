@@ -9,11 +9,15 @@
 			},
 			"traits": {
 				"minecraft:placement_direction": {
-					"enabled_states": ["minecraft:cardinal_direction"]
+					"enabled_states": [ "minecraft:cardinal_direction" ]
 				}
+			},
+			"states": {
+				"chaospack:open": [ false, true ]
 			}
 		},
 		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_trapdoor" ],
 			"minecraft:collision_box": {
 				"origin": [ 4.5, 0, -7.5 ],
 				"size": [ 3, 16, 3 ]
@@ -43,35 +47,71 @@
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('chaospack:open') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 180, 0]
+						"rotation": [ 0, 180, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('chaospack:open') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 0, 0]
+						"rotation": [ 0, 0, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('chaospack:open') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 90, 0]
+						"rotation": [ 0, 90, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('chaospack:open') ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 270, 0]
+						"rotation": [ 0, 270, 0 ]
 					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('chaospack:open') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:geometry": "geometry.wood_banister_corner_small"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('chaospack:open') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 0, 0 ]
+					},
+					"minecraft:geometry": "geometry.wood_banister_corner_small"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('chaospack:open') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:geometry": "geometry.wood_banister_corner_small"
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('chaospack:open') ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:geometry": "geometry.wood_banister_corner_small"
 				}
 			}
 		]

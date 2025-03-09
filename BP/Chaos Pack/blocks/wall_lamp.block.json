@@ -7,20 +7,24 @@
 				"category": "construction",
 				"group": "itemGroup.name.light_decor"
 			},
+			"states": {
+				"chaospack:light_on": [ true, false ]
+			},
 			"traits": {
 				"minecraft:placement_direction": {
-					"enabled_states": ["minecraft:cardinal_direction"]
+					"enabled_states": [ "minecraft:cardinal_direction" ]
 				}
 			}
 		},
 		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_light_switch" ],
 			"minecraft:collision_box": {
-				"origin": [-3, 2, 6],
-				"size": [6, 11, 2]
+				"origin": [ -3, 2, 6 ],
+				"size": [ 6, 11, 2 ]
 			},
 			"minecraft:selection_box": {
-				"origin": [-3, 2, 6],
-				"size": [6, 11, 2]
+				"origin": [ -3, 2, 6 ],
+				"size": [ 6, 11, 2 ]
 			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.4
@@ -42,35 +46,103 @@
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('chaospack:light_on')  ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 180, 0]
+						"rotation": [ 0, 180, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('chaospack:light_on')  ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 0, 0]
+						"rotation": [ 0, 0, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('chaospack:light_on')  ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 90, 0]
+						"rotation": [ 0, 90, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('chaospack:light_on')  ",
 				"components": {
 					"minecraft:transformation": {
-						"rotation": [0, 270, 0]
+						"rotation": [ 0, 270, 0 ]
 					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' && !q.block_state('chaospack:light_on')  ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wall_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' && !q.block_state('chaospack:light_on')  ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 0, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wall_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' && !q.block_state('chaospack:light_on')  ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wall_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' && !q.block_state('chaospack:light_on')  ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "wall_lamp_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
 				}
 			}
 		]
