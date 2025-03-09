@@ -44,10 +44,36 @@
 				"family": [ "star", "monster", "mob" ]
 			},
 			"minecraft:damage_sensor": {
-				"triggers": {
-					"cause": "fall",
-					"deals_damage": false
-				}
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "star"
+							}
+						},
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "lightning"
+							}
+						},
+						"deals_damage": false
+					},
+					{
+						"deals_damage": true,
+						"cause": "all"
+					}
+				]
 			},
 			"minecraft:behavior.ranged_attack": {
 				"priority": 0,
