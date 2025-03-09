@@ -126,6 +126,9 @@
 		"deer_head": {
 			"textures": "textures/blocks/trophy/deer_head.png"
 		},
+		"diamond_glass": {
+			"textures": "textures/blocks/glass/diamond_glass"
+		},
 		"diorite_bricks": {
 			"textures": "textures/blocks/bricks/diorite_bricks.png"
 		},
