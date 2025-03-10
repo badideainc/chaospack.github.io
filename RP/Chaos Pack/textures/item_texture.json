@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"starfruit": {
+			"textures": "textures/items/starfruit.png"
+		},
+		"starfruit_seeds": {
+			"textures": "textures/items/starfruit_seeds.png"
+		},
 		"stardust": {
 			"textures": "textures/items/stardust.png"
 		},
@@ -22,7 +28,7 @@
 			"textures": "textures/items/fossil.png"
 		},
 		"dodo_spawn_egg": {
-			"textures": ["textures/items/dodo_spawn_egg"]
+			"textures": [ "textures/items/dodo_spawn_egg" ]
 		},
 		"pharaoh_sceptre": {
 			"textures": "textures/items/pharaoh_sceptre.png"
@@ -55,16 +61,16 @@
 			"textures": "textures/items/metal_sheet.png"
 		},
 		"crate_spawn_egg": {
-			"textures": ["textures/items/crate_spawn_egg"]
+			"textures": [ "textures/items/crate_spawn_egg" ]
 		},
 		"deck_chair_spawn_egg": {
-			"textures": ["textures/items/deck_chair_spawn_egg"]
+			"textures": [ "textures/items/deck_chair_spawn_egg" ]
 		},
 		"row_boat_spawn_egg": {
-			"textures": ["textures/items/cars/row_boat_spawn_egg"]
+			"textures": [ "textures/items/cars/row_boat_spawn_egg" ]
 		},
 		"backpack_spawn_egg": {
-			"textures": ["textures/items/backpack_spawn_egg"]
+			"textures": [ "textures/items/backpack_spawn_egg" ]
 		},
 		"ratstone": {
 			"textures": "textures/items/ratstone.png"
@@ -97,7 +103,7 @@
 			"textures": "textures/items/yeti_horn.png"
 		},
 		"pet_rock_spawn_egg": {
-			"textures": ["textures/items/pet_rock_spawn_egg"]
+			"textures": [ "textures/items/pet_rock_spawn_egg" ]
 		},
 		"cowboy_hat": {
 			"textures": "textures/items/hats/cowboy_hat.png"
@@ -157,13 +163,13 @@
 			"textures": "textures/items/wild_gear/wild_blade.png"
 		},
 		"wheely_bin_spawn_egg": {
-			"textures": ["textures/items/cars/wheely_bin_spawn_egg"]
+			"textures": [ "textures/items/cars/wheely_bin_spawn_egg" ]
 		},
 		"toy_car_spawn_egg": {
-			"textures": ["textures/items/cars/toy_car_spawn_egg"]
+			"textures": [ "textures/items/cars/toy_car_spawn_egg" ]
 		},
 		"mannequin_head_spawn_egg": {
-			"textures": ["textures/items/mannequin_head_spawn_egg"]
+			"textures": [ "textures/items/mannequin_head_spawn_egg" ]
 		},
 		"marshmellow": {
 			"textures": "textures/items/marshmellow/marshmellow.png"
@@ -175,13 +181,13 @@
 			"textures": "textures/items/marshmellow/marshmellow_on_a_stick.png"
 		},
 		"log_bench_spawn_egg": {
-			"textures": ["textures/items/log_bench_spawn_egg"]
+			"textures": [ "textures/items/log_bench_spawn_egg" ]
 		},
 		"lightning_staff": {
 			"textures": "textures/items/lightning_staff.png"
 		},
 		"golf_cart_spawn_egg": {
-			"textures": ["textures/items/cars/golf_cart_spawn_egg"]
+			"textures": [ "textures/items/cars/golf_cart_spawn_egg" ]
 		},
 		"sunglasses_higher": {
 			"textures": "textures/items/hats/sunglasses_higher.png"
@@ -199,40 +205,40 @@
 			"textures": "textures/items/eldritch_totem"
 		},
 		"mannequin_spawn_egg": {
-			"textures": ["textures/items/mannequin_spawn_egg"]
+			"textures": [ "textures/items/mannequin_spawn_egg" ]
 		},
 		"wheel": {
-			"textures": ["textures/items/wheel"]
+			"textures": [ "textures/items/wheel" ]
 		},
 		"steering_wheel": {
-			"textures": ["textures/items/steering_wheel"]
+			"textures": [ "textures/items/steering_wheel" ]
 		},
 		"tree_sap": {
-			"textures": ["textures/items/tree_sap"]
+			"textures": [ "textures/items/tree_sap" ]
 		},
 		"rubber": {
-			"textures": ["textures/items/rubber"]
+			"textures": [ "textures/items/rubber" ]
 		},
 		"cadillac_spawn_egg": {
-			"textures": ["textures/items/cars/cadillac_spawn_egg"]
+			"textures": [ "textures/items/cars/cadillac_spawn_egg" ]
 		},
 		"firefly_spawn_egg": {
-			"textures": ["textures/items/firefly_spawn_egg"]
+			"textures": [ "textures/items/firefly_spawn_egg" ]
 		},
 		"duck_egg": {
-			"textures": ["textures/items/duck_egg"]
+			"textures": [ "textures/items/duck_egg" ]
 		},
 		"sedan_spawn_egg": {
-			"textures": ["textures/items/cars/sedan_spawn_egg"]
+			"textures": [ "textures/items/cars/sedan_spawn_egg" ]
 		},
 		"the_swamp_mobile_spawn_egg": {
-			"textures": ["textures/items/cars/the_swamp_mobile_spawn_egg"]
+			"textures": [ "textures/items/cars/the_swamp_mobile_spawn_egg" ]
 		},
 		"deer_hide": {
-			"textures": ["textures/items/deer_hide"]
+			"textures": [ "textures/items/deer_hide" ]
 		},
 		"antler": {
-			"textures": ["textures/items/antler"]
+			"textures": [ "textures/items/antler" ]
 		}
 	}
 }
