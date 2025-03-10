@@ -5,9 +5,13 @@
 			"identifier": "chaospack:polished_glowstone",
 			"menu_category": {
 				"category": "items"
+			},
+			"states": {
+				"chaospack:light_on": [ true, false ]
 			}
 		},
 		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_light_switch" ],
 			"minecraft:collision_box": true,
 			"minecraft:selection_box": true,
 			"minecraft:destructible_by_mining": {
@@ -27,6 +31,22 @@
 			},
 			"minecraft:light_emission": 15,
 			"minecraft:map_color": "#fff7ea"
-		}
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('chaospack:light_on')  ",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "polished_glowstone_off",
+							"render_method": "alpha_test",
+							"face_dimming": false,
+							"ambient_occlusion": false
+						}
+					},
+					"minecraft:light_emission": 0
+				}
+			}
+		]
 	}
 }
