@@ -294,3 +294,7 @@ tile.chaospack:solumn_trophy.name=Solumn Trophy
 tile.chaospack:stardust_block.name=Stardust Block
 entity.chaospack:giant.name=Giant
 item.spawn_egg.entity.chaospack:giant.name=Giant
+tile.chaospack:diamond_glass.name=Diamond Glass
+tile.chaospack:starfruit.name=Starfruit
+item.chaospack:starfruit_seeds=Starfruit Seeds
+item.chaospack:starfruit=Starfruit
