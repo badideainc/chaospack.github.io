@@ -31,8 +31,7 @@
 			},
 			"render_controllers": ["controller.render.evoker"],
 			"spawn_egg": {
-				"base_color": "#000000",
-				"overlay_color": "#025700"
+				"texture": "blight_spawn_egg"
 			}
 		}
 	}

@@ -31,8 +31,7 @@
 			},
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
-				"base_color": "#593622",
-				"overlay_color": "#ab7549"
+				"texture": "deer_spawn_egg"
 			}
 		}
 	}

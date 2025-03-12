@@ -14,8 +14,7 @@
 				"default": "geometry.solumn"
 			},
 			"spawn_egg": {
-				"base_color": "#000000",
-				"overlay_color": "#ffcb45"
+				"texture": "solumn_spawn_egg"
 			},
 			"animations": {
 				"move": "animation.solumn.move",

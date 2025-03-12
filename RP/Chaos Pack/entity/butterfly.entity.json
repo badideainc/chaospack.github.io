@@ -37,8 +37,7 @@
 			},
 			"render_controllers": ["controller.render.parrot"],
 			"spawn_egg": {
-				"base_color": "#bc5400",
-				"overlay_color": "#1c1c1c"
+				"texture": "butterfly_spawn_egg"
 			}
 		}
 	}

@@ -62,8 +62,7 @@
 			],
 			"render_controllers": ["controller.render.flamehound"],
 			"spawn_egg": {
-				"base_color": "#a50000",
-				"overlay_color": "#ff7e00"
+				"texture": "flamehound_spawn_egg"
 			}
 		}
 	}

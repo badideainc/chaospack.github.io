@@ -35,8 +35,7 @@
 			},
 			"render_controllers": ["controller.render.pig"],
 			"spawn_egg": {
-				"base_color": "#424242",
-				"overlay_color": "#db8080"
+				"texture": "rat_spawn_egg"
 			}
 		}
 	}

@@ -31,8 +31,7 @@
 			},
 			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
-				"base_color": "#dddddd",
-				"overlay_color": "#00b0ba"
+				"texture": "yeti_spawn_egg"
 			}
 		}
 	}

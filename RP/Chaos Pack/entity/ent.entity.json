@@ -32,8 +32,7 @@
 			},
 			"render_controllers": [ "controller.render.default" ],
 			"spawn_egg": {
-				"base_color": "#552600",
-				"overlay_color": "#65dd62"
+				"texture": "ent_spawn_egg"
 			}
 		}
 	}

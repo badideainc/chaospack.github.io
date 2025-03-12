@@ -79,8 +79,7 @@
 			"render_controllers": ["controller.render.default"],
 			"enable_attachables": true,
 			"spawn_egg": {
-				"base_color": "#f7d92e",
-				"overlay_color": "#2252b8"
+				"texture": "pharaoh_spawn_egg"
 			}
 		}
 	}

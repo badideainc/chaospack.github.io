@@ -13,8 +13,7 @@
 				"default": "geometry.soul_spirit"
 			},
 			"spawn_egg": {
-				"base_color": "#0073b6",
-				"overlay_color": "#8cbbff"
+				"texture": "soul_spirit_spawn_egg"
 			},
 			"animations": {
 				"idle": "animation.soul_spirit.idle",

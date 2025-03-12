@@ -17,8 +17,7 @@
 				"charged": "geometry.creeper.charged"
 			},
 			"spawn_egg": {
-				"base_color": "#a6ff92",
-				"overlay_color": "#ff1010"
+				"texture": "clown_creeper_spawn_egg"
 			},
 			"scripts": {
 				"pre_animation": [
@@ -45,7 +44,7 @@
 					"creeper_swelling": "controller.animation.creeper.swelling"
 				}
 			],
-			"render_controllers": ["controller.render.creeper", "controller.render.creeper_armor"]
+			"render_controllers": [ "controller.render.creeper", "controller.render.creeper_armor" ]
 		}
 	}
 }

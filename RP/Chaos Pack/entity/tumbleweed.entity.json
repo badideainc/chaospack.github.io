@@ -29,10 +29,9 @@
 					}
 				]
 			},
-			"render_controllers": ["controller.render.default"],
+			"render_controllers": [ "controller.render.default" ],
 			"spawn_egg": {
-				"base_color": "#98795b",
-				"overlay_color": "#855f33"
+				"texture": "tumbleweed_spawn_egg"
 			}
 		}
 	}

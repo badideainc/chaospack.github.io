@@ -51,8 +51,7 @@
 			},
 			"render_controllers": ["controller.render.donkey.v3"],
 			"spawn_egg": {
-				"base_color": "#70cad9",
-				"overlay_color": "#86ebae"
+				"texture": "lightning_horse_spawn_egg"
 			}
 		}
 	}

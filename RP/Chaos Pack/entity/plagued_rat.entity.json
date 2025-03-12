@@ -32,8 +32,7 @@
 			},
 			"render_controllers": [ "controller.render.default" ],
 			"spawn_egg": {
-				"base_color": "#2a191c",
-				"overlay_color": "#fe6a5e"
+				"texture": "plagued_rat_spawn_egg"
 			}
 		}
 	}

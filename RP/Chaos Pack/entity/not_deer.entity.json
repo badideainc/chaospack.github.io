@@ -50,8 +50,7 @@
 			],
 			"render_controllers": ["controller.render.enderman"],
 			"spawn_egg": {
-				"base_color": "#94877b",
-				"overlay_color": "#695d52"
+				"texture": "not_deer_spawn_egg"
 			}
 		}
 	}

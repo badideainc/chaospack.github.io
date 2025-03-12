@@ -34,8 +34,7 @@
 			},
 			"render_controllers": ["controller.render.chicken"],
 			"spawn_egg": {
-				"base_color": "#00d55b",
-				"overlay_color": "#896200"
+				"texture": "duck_male_spawn_egg"
 			}
 		}
 	}

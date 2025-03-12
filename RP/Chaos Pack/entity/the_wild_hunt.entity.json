@@ -24,7 +24,7 @@
 			},
 			"scripts": {
 				"scale": "0.92",
-				"initialize": ["variable.eat_anim = 0;", "variable.stand_anim = 0;", "variable.leg_stand_factor = 0;", "variable.leg_x_rot_anim = 0;"],
+				"initialize": [ "variable.eat_anim = 0;", "variable.stand_anim = 0;", "variable.leg_stand_factor = 0;", "variable.leg_x_rot_anim = 0;" ],
 				"pre_animation": [
 					"variable.eat_anim = math.clamp(variable.eat_anim + (query.is_grazing ? ((1.0 - variable.eat_anim) * 0.4 + 0.05) : -variable.eat_anim * 0.4 - 0.05) * query.delta_time * 20.0, 0.0, 1.0);",
 					"variable.head_x_rot = query.target_x_rotation + (query.modified_move_speed > 0.2 ? (math.cos(query.modified_distance_moved * 11.46) * 11.46 * query.modified_move_speed + query.modified_move_speed * 11.46) : 0.0);",
@@ -49,10 +49,9 @@
 					}
 				]
 			},
-			"render_controllers": ["controller.render.mule.v3"],
+			"render_controllers": [ "controller.render.mule.v3" ],
 			"spawn_egg": {
-				"base_color": "#70cad9",
-				"overlay_color": "#00fff6"
+				"texture": "the_wild_hunt_spawn_egg"
 			}
 		}
 	}

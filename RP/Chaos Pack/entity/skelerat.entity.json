@@ -35,8 +35,7 @@
 			},
 			"render_controllers": ["controller.render.pig"],
 			"spawn_egg": {
-				"base_color": "#cdcdcd",
-				"overlay_color": "#ababab"
+				"texture": "skelerat_spawn_egg"
 			}
 		}
 	}
