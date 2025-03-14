@@ -339,6 +339,39 @@
 		"panel_fence": {
 			"textures": "textures/blocks/panel_fence.png"
 		},
+		"acacia_fence": {
+			"textures": "textures/blocks/fence/acacia_fence.png"
+		},
+		"birch_fence": {
+			"textures": "textures/blocks/fence/birch_fence.png"
+		},
+		"cherry_fence": {
+			"textures": "textures/blocks/fence/cherry_fence.png"
+		},
+		"crimson_fence": {
+			"textures": "textures/blocks/fence/crimson_fence.png"
+		},
+		"dark_oak_fence": {
+			"textures": "textures/blocks/fence/dark_oak_fence.png"
+		},
+		"jungle_fence": {
+			"textures": "textures/blocks/fence/jungle_fence.png"
+		},
+		"mangrove_fence": {
+			"textures": "textures/blocks/fence/mangrove_fence.png"
+		},
+		"oak_fence": {
+			"textures": "textures/blocks/fence/oak_fence.png"
+		},
+		"pale_oak_fence": {
+			"textures": "textures/blocks/fence/pale_oak_fence.png"
+		},
+		"spruce_fence": {
+			"textures": "textures/blocks/fence/spruce_fence.png"
+		},
+		"warped_fence": {
+			"textures": "textures/blocks/fence/warped_fence.png"
+		},
 		"pavement": {
 			"textures": "textures/blocks/city/pavement.png"
 		},
@@ -389,12 +422,6 @@
 		},
 		"sandstone_bricks": {
 			"textures": "textures/blocks/bricks/sandstone_bricks.png"
-		},
-		"sandstone_quoin_left": {
-			"textures": "textures/blocks/sandstone_normal.png"
-		},
-		"sandstone_quoin_right": {
-			"textures": "textures/blocks/sandstone_normal.png"
 		},
 		"sheet_metal_block": {
 			"textures": "textures/blocks/industry/sheet_metal_block.png"
