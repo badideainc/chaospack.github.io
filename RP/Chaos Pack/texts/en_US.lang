@@ -297,3 +297,6 @@ tile.chaospack:diamond_glass.name=Diamond Glass
 tile.chaospack:starfruit.name=Starfruit
 item.chaospack:starfruit_seeds=Starfruit Seeds
 item.chaospack:starfruit=Starfruit
+tile.chaospack:fancy_glass_pane.name=Fancy Glass Pane
+tile.chaospack:reinforced_glass_pane.name=Reinforced Glass Pane
+tile.chaospack:diamond_glass_pane.name=Diamond Glass Pane
