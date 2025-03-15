@@ -1,5 +1,14 @@
 {
 	"format_version": "1.21.60",
+	"diamond_glass_pane": {
+		"sound": "glass"
+	},
+	"reinforced_glass_pane": {
+		"sound": "glass"
+	},
+	"fancy_glass_pane": {
+		"sound": "glass"
+	},
 	"starfruit": {
 		"sound": "grass"
 	},
