@@ -155,7 +155,7 @@
 					{
 						"queue_command": {
 							"command": [
-								"tag @a add chaospack:in_battle"
+								"tag @a[r=100] add chaospack:in_battle"
 							]
 						}
 					}
