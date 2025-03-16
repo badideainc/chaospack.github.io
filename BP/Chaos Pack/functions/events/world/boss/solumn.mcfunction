@@ -1,5 +1,8 @@
 execute as @p[tag=chaospack:in_battle] run scoreboard players add timer chaospack:solumn 1
 
+execute as @a[tag=chaospack:in_battle] at @e[type=chaospack:solumn] run tag @a[rm=100] remove chaospack:in_battle
+execute as @a[tag=!chaospack:in_battle] at @e[type=chaospack:solumn] run tag @a[r=100] add chaospack:in_battle
+
 execute if score interval chaospack:solumn matches 5 run scoreboard players random state chaospack:solumn 0 100
 execute if score interval chaospack:solumn matches 5 run scoreboard players set interval chaospack:solumn 0
 
