@@ -28,7 +28,7 @@
 				]
 			},
 			"minecraft:inventory": {
-				"container_type": "container",
+				"container_type": "inventory",
 				"inventory_size": 54,
 				"can_be_siphoned_from": true
 			},
@@ -42,9 +42,6 @@
 			//This component is important, without it the boat will sink
 			"minecraft:navigation.walk": {
 				"can_sink": false
-			},
-			"minecraft:nameable": {
-				"allow_name_tag_renaming": false
 			},
 			"minecraft:rideable": {
 				"seat_count": 4,
