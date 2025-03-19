@@ -43,10 +43,13 @@
 			"minecraft:navigation.walk": {
 				"can_sink": false
 			},
+			"minecraft:nameable": {
+				"allow_name_tag_renaming": false
+			},
 			"minecraft:rideable": {
 				"seat_count": 4,
-				"family_types": [ "player" ],
 				"interact_text": "action.interact.enter_boat",
+				"pull_in_entities": true,
 				"seats": [
 					{
 						"min_rider_count": 0,
@@ -56,7 +59,8 @@
 					{
 						"min_rider_count": 1,
 						"max_rider_count": 4,
-						"position": [ 0, 0.5, 0 ]
+						"position": [ 0, 0.5, 0 ],
+						"rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0"
 					},
 					{
 						"min_rider_count": 2,
@@ -67,7 +71,8 @@
 					{
 						"min_rider_count": 3,
 						"max_rider_count": 4,
-						"position": [ 0, 0.5, -1.4 ]
+						"position": [ 0, 0.5, -1.4 ],
+						"rotate_rider_by": "query.has_any_family('blaze', 'creeper', 'enderman', 'illager', 'magmacube', 'piglin', 'player', 'skeleton', 'slime', 'villager', 'wandering_trader', 'witch', 'zombie', 'zombie_pigman') ? -90 : 0"
 					}
 				]
 			},
