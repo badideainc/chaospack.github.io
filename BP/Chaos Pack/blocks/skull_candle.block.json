@@ -37,6 +37,15 @@
 					"ambient_occlusion": false
 				}
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "popped"
+					}
+				]
+			},
 			"minecraft:light_emission": 15,
 			"minecraft:map_color": "#e1dcca"
 		},

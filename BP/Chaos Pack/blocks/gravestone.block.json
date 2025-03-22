@@ -30,8 +30,18 @@
       },
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 2
-      }
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "liquid_type": "water",
+            "can_contain_liquid": true,
+            "on_liquid_touches": "blocking"
+          }
+        ]
+      },
       //"minecraft:custom_components": [ "chaospack:align_entity" ]
+      "minecraft:map_color": "#7f7f7f"
     },
     "permutations": [
       {
