@@ -30,6 +30,15 @@
 					"render_method": "opaque"
 				}
 			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "blocking"
+					}
+				]
+			},
 			"minecraft:map_color": "#2e2e2e"
 		}
 	}

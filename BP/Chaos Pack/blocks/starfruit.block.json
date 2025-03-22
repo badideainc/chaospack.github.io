@@ -33,7 +33,7 @@
 				"detection_rules": [
 					{
 						"liquid_type": "water",
-						"on_liquid_touches": "broken"
+						"on_liquid_touches": "popped"
 					}
 				]
 			}
