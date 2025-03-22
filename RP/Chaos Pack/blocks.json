@@ -1,5 +1,14 @@
 {
 	"format_version": "1.21.60",
+	"spring_leaves": {
+		"sound": "azalea_leaves"
+	},
+	"lavender_leaves": {
+		"sound": "azalea_leaves"
+	},
+	"maple_leaves": {
+		"sound": "azalea_leaves"
+	},
 	"diamond_glass_pane": {
 		"sound": "glass"
 	},
