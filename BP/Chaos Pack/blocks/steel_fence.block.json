@@ -31,7 +31,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "steel_fence",
-					"render_method": "opaque"
+					"render_method": "alpha_test"
 				}
 			},
 			"minecraft:liquid_detection": {
