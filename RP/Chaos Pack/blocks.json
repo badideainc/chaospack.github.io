@@ -1,5 +1,11 @@
 {
 	"format_version": "1.21.60",
+	"number_panel": {
+		"sound": "glass"
+	},
+	"shelf_mushroom": {
+		"sound": "grass"
+	},
 	"spring_leaves": {
 		"sound": "azalea_leaves"
 	},
