@@ -297,6 +297,9 @@
 		"industrial_fan": {
 			"textures": "textures/blocks/industry/industrial_fan.png"
 		},
+		"lavender_leaves": {
+			"textures": "textures/blocks/leaves/lavender_leaves.png"
+		},
 		"light_blue_wallpaper": {
 			"textures": "textures/blocks/wallpaper/light_blue_wallpaper.png"
 		},
@@ -311,6 +314,9 @@
 		},
 		"magenta_wallpaper": {
 			"textures": "textures/blocks/wallpaper/magenta_wallpaper.png"
+		},
+		"maple_leaves": {
+			"textures": "textures/blocks/leaves/maple_leaves.png"
 		},
 		"mud_tiles": {
 			"textures": "textures/blocks/tiles/mud_tiles.png"
@@ -443,6 +449,9 @@
 		},
 		"solumn_trophy": {
 			"textures": "textures/blocks/trophy/solumn_trophy.png"
+		},
+		"spring_leaves": {
+			"textures": "textures/blocks/leaves/spring_leaves.png"
 		},
 		"stair_railing": {
 			"textures": "textures/blocks/planks_spruce.png"
@@ -680,6 +689,36 @@
 		},
 		"yeti_trophy": {
 			"textures": "textures/blocks/trophy/yeti_trophy.png"
+		},
+		"digit_zero": {
+			"textures": "textures/blocks/digits/digit_zero.png"
+		},
+		"digit_one": {
+			"textures": "textures/blocks/digits/digit_one.png"
+		},
+		"digit_two": {
+			"textures": "textures/blocks/digits/digit_two.png"
+		},
+		"digit_three": {
+			"textures": "textures/blocks/digits/digit_three.png"
+		},
+		"digit_four": {
+			"textures": "textures/blocks/digits/digit_four.png"
+		},
+		"digit_five": {
+			"textures": "textures/blocks/digits/digit_five.png"
+		},
+		"digit_six": {
+			"textures": "textures/blocks/digits/digit_six.png"
+		},
+		"digit_seven": {
+			"textures": "textures/blocks/digits/digit_seven.png"
+		},
+		"digit_eight": {
+			"textures": "textures/blocks/digits/digit_eight.png"
+		},
+		"digit_nine": {
+			"textures": "textures/blocks/digits/digit_nine.png"
 		}
 	}
 }
