@@ -29,7 +29,7 @@
 			"minecraft:navigation.generic": {},
 			"minecraft:input_ground_controlled": {},
 			"minecraft:rideable": {
-				"seat_count": 2,
+				"seat_count": 4,
 				"crouching_skip_interact": true,
 				"pull_in_entities": true,
 				"family_types": [ "player" ],
