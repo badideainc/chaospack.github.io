@@ -1,5 +1,8 @@
 {
 	"format_version": "1.21.60",
+	"quartz_trim": {
+		"sound": "stone"
+	},
 	"number_panel": {
 		"sound": "glass"
 	},
