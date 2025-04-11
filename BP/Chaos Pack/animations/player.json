@@ -1,0 +1,12 @@
+{
+  "format_version": "1.10.0",
+  "animations": {
+    "animation.player.slime_boots": {
+      "timeline": {
+        "0.0": [ "/effect @s jump_boost 1 5 true" ]
+      },
+      "animation_length": 0.05,
+      "loop": true
+    }
+  }
+}
