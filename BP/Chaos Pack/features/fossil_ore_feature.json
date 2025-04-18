@@ -1,0 +1,16 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "chaospack:fossil_ore_feature"
+    },
+    "count": 4, // Placement attempts
+    "replace_rules": [
+      {
+        // Replace all stone variants (andesite, granite, and diorite) with titanite ore
+        "places_block": "chaospack:deepslate_fossil_ore",
+        "may_replace": [ "minecraft:deepslate" ]
+      }
+    ]
+  }
+}
