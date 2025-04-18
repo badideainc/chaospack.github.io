@@ -1,0 +1,65 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:copper_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_tool",
+			    "minecraft:is_shovel"
+				]
+			},
+			
+			"minecraft:icon": {
+				"texture": "copper_shovel"
+			},
+			"minecraft:damage": 2,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"use_efficiency": true,
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('dirt')"
+						}
+					},
+					{
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('sand')"
+						}
+					},
+					{
+						"speed": 8,
+						"block": {
+							"tags": "query.any_tag('gravel')"
+						}
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "shovel"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 210
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [ "copper_ingot" ],
+						"repair_amount": 52
+					}
+				]
+			}
+		}
+	}
+}

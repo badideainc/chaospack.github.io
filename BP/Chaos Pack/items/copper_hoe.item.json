@@ -1,0 +1,64 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:copper_hoe",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.hoe"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:is_tool",
+					"minecraft:is_hoe"
+				]
+			},
+			"minecraft:icon": {
+				"texture": "copper_hoe"
+			},
+			"minecraft:damage": 3,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{
+						"use_efficiency": true,
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('plant')"
+						}
+					},
+					{
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('minecraft:crop')"
+						}
+					},
+					{
+						"speed": 7,
+						"block": {
+							"tags": "query.any_tag('fertilize_area')"
+						}
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "hoe"
+			},
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 210
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [ "copper_ingot" ],
+						"repair_amount": 52
+					}
+				]
+			}
+		}
+	}
+}

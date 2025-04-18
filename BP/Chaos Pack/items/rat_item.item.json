@@ -1,0 +1,21 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:rat_item",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:icon": {
+				"texture": "rat_item"
+			},
+			"minecraft:projectile": {
+				"minimum_critical_power": 1.25,
+				"projectile_entity": "chaospack:rat_friendly"
+			}
+		}
+	}
+}

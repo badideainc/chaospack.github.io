@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:anubis_mask",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "anubis_mask"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 5
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 165
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["sand"],
+						"repair_amount": 41
+					}
+				]
+			}
+		}
+	}
+}

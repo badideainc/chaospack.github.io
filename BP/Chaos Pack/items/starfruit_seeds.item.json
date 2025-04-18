@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:starfruit_seeds", // Make sure this is different from your crop's ID.
+			"menu_category": {
+				"category": "nature",
+				"group": "minecraft:itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": "starfruit_seeds",
+			"minecraft:block_placer": {
+				"block": "chaospack:starfruit" // The block this item is placing.
+			}
+		}
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"identifier": "chaospack:clown_nose",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.helmet"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "clown_nose"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head",
+				"protection": 2
+			},
+			"minecraft:enchantable": {
+				"slot": "armor_head",
+				"value": 9
+			},
+			"minecraft:durability": {
+				"max_durability": 165
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": ["red_wool"],
+						"repair_amount": 41
+					}
+				]
+			}
+		}
+	}
+}
