@@ -1,5 +1,0 @@
-import "./custom_trapdoor.js"
-import "./custom_metal_door.js"
-import "./custom_light_switch.js"
-import "./custom_chest.js"
-import "./custom_ore_exp.js"
