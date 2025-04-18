@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "chaospack:herobrine",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {},
+        "minecraft:spawns_underground": {},
+        "minecraft:world_age_filter": {
+          "min": 6000
+        },
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 15,
+          "adjust_for_weather": false
+        },
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+        "minecraft:delay_filter": {
+          "min": 400,
+          "max": 500,
+          "identifier": "chaospack:herobrine",
+          "spawn_chance": 20
+        },
+        "minecraft:weight": {
+          "default": 5
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 1
+        }
+      }
+    ]
+  }
+}
