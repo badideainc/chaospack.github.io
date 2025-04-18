@@ -1,0 +1,29 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:toy_car",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/toy_car"
+			},
+			"geometry": {
+				"default": "geometry.toy_car"
+			},
+			"render_controllers": ["controller.render.default"],
+			"animations": {
+				"drive": "animation.toy_car.drive"
+			},
+			"scripts": {
+				"initialize": ["variable.steering = 0;"],
+				"pre_animation": ["query.has_rider ? (variable.steering = Math.lerp(variable.steering, query.yaw_speed, 0.15));"],
+				"animate": ["drive"]
+			},
+			"spawn_egg": {
+				"texture": "toy_car_spawn_egg"
+			}
+		}
+	}
+}

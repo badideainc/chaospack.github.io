@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:soul_spirit",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/soul_spirit"
+			},
+			"geometry": {
+				"default": "geometry.soul_spirit"
+			},
+			"spawn_egg": {
+				"texture": "soul_spirit_spawn_egg"
+			},
+			"animations": {
+				"idle": "animation.soul_spirit.idle",
+				"fly": "animation.soul_spirit.fly",
+				"general": "controller.animation.allay.general"
+			},
+			"scripts": {
+				"animate": ["general"]
+			},
+			"render_controllers": ["controller.render.allay"],
+			"enable_attachables": true
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:log_bench",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/log_bench"
+			},
+			"geometry": {
+				"default": "geometry.log_bench"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"texture": "log_bench_spawn_egg"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "chaospack:frogshot_grapple",
+			"materials": {
+				"default": "entity_emissive_alpha"
+			},
+			"textures": {
+				"default": "textures/entity/gadgets/frogshot_grapple"
+			},
+			"geometry": {
+				"default": "geometry.flashbulb"
+			},
+			"render_controllers": ["controller.render.default"]
+		}
+	}
+}
