@@ -1,0 +1,59 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:pizza",
+			"menu_category": {
+				"category": "none"
+			},
+			"states": {
+				"chaospack:eat": [ 0, 1, 2, 3 ]
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_consume" ],
+			"minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 2, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 2, 16 ]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 15
+			},
+			"minecraft:geometry": "geometry.pizza0",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "pizza",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#98b145"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('chaospack:eat') == 1 ",
+				"components": {
+					"minecraft:geometry": "geometry.pizza1"
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:eat') == 2 ",
+				"components": {
+					"minecraft:geometry": "geometry.pizza2"
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:eat') == 3 ",
+				"components": {
+					"minecraft:geometry": "geometry.pizza3"
+				}
+			}
+		]
+	}
+}

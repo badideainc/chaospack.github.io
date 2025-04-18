@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:dirt_slab",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.slab"
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [ "minecraft:vertical_half" ]
+				}
+			}
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 8, 16 ]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0.5
+			},
+			"minecraft:geometry": "geometry.slab",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "dirt",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "blocking"
+					}
+				]
+			},
+			"minecraft:map_color": "#926c4d"
+		},
+		"permutations": [
+			{ // upper_slab
+				"condition": "query.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:transformation": {
+						"translation": [ 0, 0.5, 0 ]
+					}
+				}
+			}
+		]
+	}
+}
