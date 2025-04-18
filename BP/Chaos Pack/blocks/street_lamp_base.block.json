@@ -1,0 +1,57 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:street_lamp_base",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.pavement"
+			},
+			"states": {
+				"chaospack:open": [ true, false ]
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [ "chaospack:custom_metal_door" ],
+			"minecraft:collision_box": {
+				"origin": [ -4, 0, -4 ],
+				"size": [ 8, 16, 8 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -4, 0, -4 ],
+				"size": [ 8, 16, 8 ]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"minecraft:geometry": "geometry.street_lamp_base",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "street_lamp_base",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "blocking"
+					}
+				]
+			},
+			"minecraft:map_color": "#2e2e2e"
+		},
+		"permutations": [
+			{
+				"condition": "!q.block_state('chaospack:open')  ",
+				"components": {
+					"minecraft:geometry": "geometry.street_lamp_base_large"
+				}
+			}
+		]
+	}
+}
