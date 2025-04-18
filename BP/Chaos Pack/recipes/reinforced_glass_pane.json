@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:reinforced_glass_pane"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospacK:reinforced_glass"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospacK:reinforced_glass"
+			}
+		],
+		"result": {
+			"item": "chaospacK:reinforced_glass_pane",
+			"count": 16
+		}
+	}
+}

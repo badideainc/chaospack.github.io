@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:industrial_fan"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"R#R",
+			"#P#",
+			"R#R"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:redstone"
+			},
+			"#": {
+				"item": "chaospack:metal_sheet"
+			},
+			"R": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:redstone"
+			},
+			{
+				"item": "chaospack:metal_sheet"
+			}
+		],
+		"result": {
+			"item": "chaospack:industrial_fan"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:ratstone_block"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:ratstone"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:ratstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:ratstone_block",
+			"count": 1
+		}
+	}
+}

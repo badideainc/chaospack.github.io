@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:golf_cart_spawn_egg_deer"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"xGS",
+			"P#P"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:iron_ingot"
+			},
+			"x": {
+				"item": "minecraft:chain"
+			},
+			"G": {
+				"item": "chaospack:deer_hide"
+			},
+			"S": {
+				"item": "chaospack:steering_wheel"
+			},
+			"P": {
+				"item": "chaospack:wheel"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:wheel"
+			},
+			{
+				"item": "chaospack:steering_wheel"
+			}
+		],
+		"result": {
+			"item": "chaospack:golf_cart_spawn_egg",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:glowshroom_red"
+		},
+
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "minecraft:glowstone_dust"
+			},
+			{
+				"item": "minecraft:red_mushroom"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:glowstone_dust"
+			},
+			{
+				"item": "minecraft:red_mushroom"
+			}
+		],
+		"result": {
+			"item": "chaospack:glowshroom"
+		}
+	}
+}

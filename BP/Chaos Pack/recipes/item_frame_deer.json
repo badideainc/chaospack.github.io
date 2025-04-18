@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:item_frame"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"#P#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"P": {
+				"item": "chaospack:deer_hide"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:deer_hide"
+			}
+		],
+		"result": {
+			"item": "minecraft:frame",
+			"count": 1
+		}
+	}
+}

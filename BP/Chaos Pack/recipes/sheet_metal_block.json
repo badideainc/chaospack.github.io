@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:sheet_metal_block"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:metal_sheet"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:metal_sheet"
+			}
+		],
+		"result": {
+			"item": "chaospack:sheet_metal_block",
+			"count": 4
+		}
+	}
+}

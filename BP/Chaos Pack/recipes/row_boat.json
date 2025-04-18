@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:row_boat_spawn_egg"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"P  ",
+			"rGS",
+			"SSS"
+		],
+		"key": {
+			"G": {
+				"tag": "minecraft:wooden_slabs"
+			},
+			"S": {
+				"tag": "minecraft:planks"
+			},
+			"P": {
+				"item": "minecraft:blast_furnace"
+			},
+			"r": {
+				"item": "minecraft:chest"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:planks"
+			}
+		],
+		"result": {
+			"item": "chaospack:row_boat_spawn_egg",
+			"count": 1
+		}
+	}
+}

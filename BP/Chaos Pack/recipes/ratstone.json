@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:ratstone"
+		},
+
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "chaospack:ratstone_block"
+			}
+		],
+		"unlock": [
+			{
+				"item": "chaospack:ratstone_block"
+			}
+		],
+		"result": {
+			"item": "chaospack:ratstone",
+			"count": 9
+		}
+	}
+}

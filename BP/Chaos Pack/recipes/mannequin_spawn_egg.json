@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:mannequin_spawn_egg"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"P#P",
+			"P P"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"tag": "minecraft:planks"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:planks"
+			}
+		],
+		"result": {
+			"item": "chaospack:mannequin_spawn_egg",
+			"count": 1
+		}
+	}
+}

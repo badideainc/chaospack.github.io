@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:granite_pillar_stonecutter"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:granite"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:granite"
+			}
+		],
+		"result": {
+			"item": "chaospack:granite_pillar",
+			"count": 1
+		}
+	}
+}

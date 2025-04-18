@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:not_deer_trophy"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"P P",
+			" # ",
+			" # "
+		],
+		"key": {
+			"P": {
+				"item": "chaospack:antler"
+			},
+			"#": {
+				"item": "chaospack:not_deer_hide"
+			}
+		},
+			"unlock": [
+				{
+					"item": "chaospack:antler"
+				},
+				{
+					"item": "chaospack:not_deer_hide"
+				}
+			],
+		"result": {
+			"item": "chaospack:not_deer_trophy",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:pillow"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#P#"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:feather"
+			},
+			"#": {
+				"tag": "minecraft:wool"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:wool"
+			}
+		],
+		"result": {
+			"item": "chaospack:pillow",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:incubator"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" P",
+			"###",
+			"LFL"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:metal_sheet"
+			},
+			"P": {
+				"item": "minecraft:glass"
+			},
+			"L": {
+				"item": "minecraft:diamond"
+			},
+			"F": {
+				"item": "minecraft:furnace"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:fossil"
+			},
+			{
+				"item": "chaospack:metal_sheet"
+			}
+		],
+		"result": {
+			"item": "chaospack:incubator",
+			"count": 1
+		}
+	}
+}

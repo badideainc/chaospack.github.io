@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:sheet_metal_grate"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"# #",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:sheet_metal_block"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:sheet_metal_block"
+			}
+		],
+		"result": {
+			"item": "chaospack:sheet_metal_grate",
+			"count": 4
+		}
+	}
+}

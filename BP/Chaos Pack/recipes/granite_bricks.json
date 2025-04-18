@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:granite_bricks"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:polished_granite"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:polished_granite"
+			}
+		],
+		"result": {
+			"item": "chaospack:granite_bricks",
+			"count": 4
+		}
+	}
+}
