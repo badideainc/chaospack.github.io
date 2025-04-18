@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wild_leggings"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"# #",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:wild_shard"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:wild_shard"
+			}
+		],
+		"result": {
+			"item": "chaospack:wild_leggings",
+			"count": 1
+		}
+	}
+}

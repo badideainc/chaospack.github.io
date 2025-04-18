@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wizard_hat"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			"###"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:nether_star"
+			},
+			"#": {
+				"item": "minecraft:amethyst_shard"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:nether_star"
+			}
+		],
+		"result": {
+			"item": "chaospack:wizard_hat",
+			"count": 1
+		}
+	}
+}

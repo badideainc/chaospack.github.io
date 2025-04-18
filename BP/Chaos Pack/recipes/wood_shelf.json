@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wood_shelf"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"tag": "minecraft:wooden_slabs"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:wooden_slabs"
+			}
+		],
+		"result": {
+			"item": "chaospack:wood_shelf",
+			"count": 3
+		}
+	}
+}

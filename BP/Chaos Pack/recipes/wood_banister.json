@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wood_banister"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PPP",
+			" # ",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stick"
+			},
+			"P": {
+				"tag": "minecraft:wooden_slabs"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:wooden_slabs"
+			}
+		],
+		"result": {
+			"item": "chaospack:wood_banister",
+			"count": 4
+		}
+	}
+}

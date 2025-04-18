@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:yellow_lines"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:carpet",
+				"data": 4
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:carpet",
+				"data": 4
+			}
+		],
+		"result": {
+			"item": "chaospack:yellow_lines",
+			"count": 8
+		}
+	}
+}
