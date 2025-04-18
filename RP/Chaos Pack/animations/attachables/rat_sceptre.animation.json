@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rat_sceptre.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [81, 60, -60],
+					"position": [3, 22, 4]
+				}
+			}
+		},
+		"animation.rat_sceptre.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [-325, 0, 0],
+					"position": [-0.5, 20.5, -0.5]
+				}
+			}
+		}
+	}
+}
