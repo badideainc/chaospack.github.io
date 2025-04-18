@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:amethyst_bricks_stonecutter"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:amethyst_block"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:amethyst_block"
+			}
+		],
+		"result": {
+			"item": "chaospack:amethyst_bricks",
+			"count": 1
+		}
+	}
+}

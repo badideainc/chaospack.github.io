@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "chaospack:bamboo_planks_from_stripped_wood"
+    },
+    "tags": [ "crafting_table" ],
+    "group": "planks",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "chaospack:stripped_bamboo_wood"
+      }
+    },
+    "unlock": [
+      {
+        "item": "chaospack:stripped_bamboo_wood"
+      }
+    ],
+    "result": {
+      "item": "chaospack:stripped_bamboo_planks",
+      "count": 4
+    }
+  }
+}

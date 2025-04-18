@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:blackstone_pillar_stonecutter"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:blackstone"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:blackstone"
+			}
+		],
+		"result": {
+			"item": "chaospack:blackstone_pillar",
+			"count": 1
+		}
+	}
+}

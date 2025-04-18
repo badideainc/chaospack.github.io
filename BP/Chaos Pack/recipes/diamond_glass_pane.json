@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:diamond_glass_pane"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospacK:diamond_glass"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospacK:diamond_glass"
+			}
+		],
+		"result": {
+			"item": "chaospacK:diamond_glass_pane",
+			"count": 16
+		}
+	}
+}

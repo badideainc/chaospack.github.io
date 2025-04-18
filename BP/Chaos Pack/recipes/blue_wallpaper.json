@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:blue_wallpaper"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:wool",
+				"data": 11
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:wool",
+				"data": 11
+			}
+		],
+		"result": {
+			"item": "chaospack:blue_wallpaper",
+			"count": 4
+		}
+	}
+}

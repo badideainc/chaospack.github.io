@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:deck_chair_spawn_egg"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#  ",
+			"###",
+			"P P"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"tag": "minecraft:wool"
+			}
+		},
+		"unlock": [
+			{
+				"tag": "minecraft:wool"
+			}
+		],
+		"result": {
+			"item": "chaospack:deck_chair_spawn_egg",
+			"count": 1
+		}
+	}
+}

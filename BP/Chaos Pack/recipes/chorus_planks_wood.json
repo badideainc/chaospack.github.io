@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:chorus_planks_wood"
+		},
+
+
+		"tags": [ "crafting_table" ],
+		"ingredients": [
+			{
+				"item": "chaospack:chorus_wood"
+			}
+		],
+		"unlock": [
+			{
+				"item": "chaospack:chorus_wood"
+			}
+		],
+		"result": {
+			"item": "chaospack:chorus_planks",
+			"count": 4
+		}
+	}
+}

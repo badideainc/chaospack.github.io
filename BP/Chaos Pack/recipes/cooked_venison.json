@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:cooked_venison"
+		},
+
+		"unlock": [
+			{
+				"item": "chaospack:venison"
+			}
+		],
+		"tags": [ "furnace", "smoker", "campfire" ],
+		"input": "chaospack:venison",
+		"output": "chaospack:cooked_venison"
+	}
+}

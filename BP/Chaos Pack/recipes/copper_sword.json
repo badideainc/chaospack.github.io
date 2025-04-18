@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:copper_sword"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#",
+			"#",
+			"P"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:copper_ingot"
+			},
+			"P": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:raw_copper"
+			}
+		],
+		"result": {
+			"item": "chaospack:copper_sword",
+			"count": 1
+		}
+	}
+}

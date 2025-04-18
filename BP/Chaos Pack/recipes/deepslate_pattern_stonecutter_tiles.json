@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "chaospack:deepslate_pattern_stonecutter_tiles"
+		},
+
+
+		"tags": [ "stonecutter" ],
+		"priority": 0,
+		"ingredients": [
+			{
+				"item": "minecraft:deepslate_tiles"
+			}
+		],
+		"unlock": [
+			{
+				"item": "minecraft:cobbled_deepslate"
+			}
+		],
+		"result": {
+			"item": "chaospack:deepslate_pattern",
+			"count": 1
+		}
+	}
+}

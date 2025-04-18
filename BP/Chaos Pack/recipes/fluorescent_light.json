@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:fluorescent_light"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"#P#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:glass_pane"
+			},
+			"P": {
+				"item": "minecraft:glowstone_dust"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:glowstone_dust"
+			}
+		],
+		"result": {
+			"item": "chaospack:fluorescent_light",
+			"count": 4
+		}
+	}
+}

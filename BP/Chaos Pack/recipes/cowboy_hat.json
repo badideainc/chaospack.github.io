@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:cowboy_hat"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:deer_hide"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:deer_hide"
+			}
+		],
+		"result": {
+			"item": "chaospack:cowboy_hat",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:bonk_hammer"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##P",
+			" R",
+			" R "
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:barrier"
+			},
+			"#": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"R": {
+				"item": "minecraft:stick"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:barrier"
+			}
+		],
+		"result": {
+			"item": "chaospack:bonk_hammer",
+			"count": 1
+		}
+	}
+}

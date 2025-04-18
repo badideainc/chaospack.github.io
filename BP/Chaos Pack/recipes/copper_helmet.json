@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:copper_helmet"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"# #"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:copper_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:raw_copper"
+			}
+		],
+		"result": {
+			"item": "chaospack:copper_helmet",
+			"count": 1
+		}
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:chorus_wood"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"##",
+			"##"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:chorus_stem"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:chorus_stem"
+			}
+		],
+		"result": {
+			"item": "chaospack:chorus_wood",
+			"count": 4
+		}
+	}
+}
