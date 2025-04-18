@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wall_lamp"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#x#",
+			" # "
+		],
+		"key": {
+			"x": {
+				"item": "minecraft:torch"
+			},
+			"#": {
+				"item": "minecraft:iron_nugget"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_nugget"
+			},
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		"result": {
+			"item": "chaospack:wall_lamp",
+			"count": 1
+		}
+	}
+}

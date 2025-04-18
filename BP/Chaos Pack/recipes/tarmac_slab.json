@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:tarmac_slab"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:tarmac"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:tarmac"
+			}
+		],
+		"result": {
+			"item": "chaospack:tarmac_slab",
+			"count": 6
+		}
+	}
+}

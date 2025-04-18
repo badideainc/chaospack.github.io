@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:wheel"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" #",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:rubber"
+			},
+			"P": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:iron_ingot"
+			}
+		],
+		"result": {
+			"item": "chaospack:wheel",
+			"count": 2
+		}
+	}
+}

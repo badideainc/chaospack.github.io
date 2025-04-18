@@ -1,0 +1,27 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:street_lamp_body"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:street_lamp_base"
+			}
+		},
+		"unlock": [
+			{
+				"item": "deepslate"
+			}
+		],
+		"result": {
+			"item": "chaospack:street_lamp_body",
+			"count": 4
+		}
+	}
+}

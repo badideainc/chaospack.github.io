@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:steering_wheel_deer"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" # ",
+			"#P#",
+			" # "
+		],
+		"key": {
+			"#": {
+				"item": "chaospack:deer_hide"
+			},
+			"P": {
+				"item": "minecraft:iron_ingot"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:deer_hide"
+			}
+		],
+		"result": {
+			"item": "chaospack:steering_wheel",
+			"count": 2
+		}
+	}
+}

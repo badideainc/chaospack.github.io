@@ -1,0 +1,17 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "chaospack:tarmac"
+		},
+
+		"unlock": [
+			{
+				"item": "chaospack:concrete_powder"
+			}
+		],
+		"tags": [ "furnace", "blast_furnace" ],
+		"input": "chaospack:concrete_powder",
+		"output": "chaospack:tarmac"
+	}
+}

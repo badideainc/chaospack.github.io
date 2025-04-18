@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:teddy_bear"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#P#",
+			" # ",
+			"###"
+		],
+		"key": {
+			"P": {
+				"item": "minecraft:spider_eye"
+			},
+			"#": {
+				"tag": "minecraft:wool"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:wool"
+			}
+		],
+		"result": {
+			"item": "chaospack:teddy_bear",
+			"count": 1
+		}
+	}
+}

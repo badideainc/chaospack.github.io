@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:the_swamp_mobile_spawn_egg_deer"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"###",
+			"xGS",
+			"PxP"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:amethyst_shard"
+			},
+			"x": {
+				"item": "minecraft:vine"
+			},
+			"G": {
+				"item": "chaospack:deer_hide"
+			},
+			"S": {
+				"item": "chaospack:steering_wheel"
+			},
+			"P": {
+				"item": "chaospack:wheel"
+			}
+		},
+		"unlock": [
+			{
+				"item": "chaospack:wheel"
+			},
+			{
+				"item": "chaospack:steering_wheel"
+			}
+		],
+		"result": {
+			"item": "chaospack:the_swamp_mobile_spawn_egg",
+			"count": 1
+		}
+	}
+}

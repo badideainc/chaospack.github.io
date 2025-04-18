@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "chaospack:street_lamp_base"
+		},
+
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:polished_deepslate"
+			}
+		},
+		"unlock": [
+			{
+				"item": "deepslate"
+			}
+		],
+		"result": {
+			"item": "chaospack:street_lamp_base",
+			"count": 2
+		}
+	}
+}
