@@ -1,0 +1,193 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pizza0",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "PizzaSlice0",
+					"parent": "block",
+					"pivot": [0, -3, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, 0],
+							"size": [7, 1, 7],
+							"uv": {
+								"north": {"uv": [8, 14], "uv_size": [7, 1]},
+								"east": {"uv": [8, 14], "uv_size": [7, 1]},
+								"south": {"uv": [8, 14], "uv_size": [7, 1]},
+								"west": {"uv": [8, 14], "uv_size": [7, 1]},
+								"up": {"uv": [15, 15], "uv_size": [-7, -7]},
+								"down": {"uv": [15, 15], "uv_size": [-7, -7]}
+							}
+						},
+						{
+							"origin": [-7, 0, 7],
+							"size": [7, 1.5, 1],
+							"uv": {
+								"north": {"uv": [1, 15], "uv_size": [7, 1]},
+								"east": {"uv": [0, 15], "uv_size": [1, 1]},
+								"south": {"uv": [1, 15], "uv_size": [7, 1]},
+								"west": {"uv": [0, 15], "uv_size": [1, 1]},
+								"up": {"uv": [7, 16], "uv_size": [-7, -1]},
+								"down": {"uv": [7, 16], "uv_size": [-7, -1]}
+							}
+						},
+						{
+							"origin": [-8, 0, 0],
+							"size": [1, 1.5, 8],
+							"uv": {
+								"north": {"uv": [0, 15], "uv_size": [1, 1]},
+								"east": {"uv": [0, 15], "uv_size": [8, 1]},
+								"south": {"uv": [0, 15], "uv_size": [1, 1]},
+								"west": {"uv": [0, 15], "uv_size": [8, 1]},
+								"up": {"uv": [1, 16], "uv_size": [-1, -8]},
+								"down": {"uv": [1, 16], "uv_size": [-1, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "PizzaSlice1",
+					"parent": "block",
+					"pivot": [0, -3, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, 0],
+							"size": [7, 1, 7],
+							"uv": {
+								"north": {"uv": [1, 14], "uv_size": [7, 1]},
+								"east": {"uv": [1, 14], "uv_size": [7, 1]},
+								"south": {"uv": [1, 14], "uv_size": [7, 1]},
+								"west": {"uv": [1, 14], "uv_size": [7, 1]},
+								"up": {"uv": [8, 15], "uv_size": [-7, -7]},
+								"down": {"uv": [8, 15], "uv_size": [-7, -7]}
+							}
+						},
+						{
+							"origin": [0, 0, 7],
+							"size": [7, 1.5, 1],
+							"uv": {
+								"north": {"uv": [8, 15], "uv_size": [7, 1]},
+								"east": {"uv": [15, 15], "uv_size": [1, 1]},
+								"south": {"uv": [8, 15], "uv_size": [7, 1]},
+								"west": {"uv": [15, 15], "uv_size": [1, 1]},
+								"up": {"uv": [15, 16], "uv_size": [-7, -1]},
+								"down": {"uv": [15, 16], "uv_size": [-7, -1]}
+							}
+						},
+						{
+							"origin": [7, 0, 0],
+							"size": [1, 1.5, 8],
+							"uv": {
+								"north": {"uv": [15, 15], "uv_size": [1, 1]},
+								"east": {"uv": [8, 15], "uv_size": [8, 1]},
+								"south": {"uv": [15, 15], "uv_size": [1, 1]},
+								"west": {"uv": [8, 15], "uv_size": [8, 1]},
+								"up": {"uv": [16, 16], "uv_size": [-1, -8]},
+								"down": {"uv": [16, 16], "uv_size": [-1, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "PizzaSlice2",
+					"parent": "block",
+					"pivot": [0, -3, 0],
+					"cubes": [
+						{
+							"origin": [0, 0, -7],
+							"size": [7, 1, 7],
+							"uv": {
+								"north": {"uv": [1, 1], "uv_size": [7, 1]},
+								"east": {"uv": [1, 1], "uv_size": [7, 1]},
+								"south": {"uv": [1, 1], "uv_size": [7, 1]},
+								"west": {"uv": [1, 1], "uv_size": [7, 1]},
+								"up": {"uv": [8, 8], "uv_size": [-7, -7]},
+								"down": {"uv": [8, 8], "uv_size": [-7, -7]}
+							}
+						},
+						{
+							"origin": [0, 0, -8],
+							"size": [7, 1.5, 1],
+							"uv": {
+								"north": {"uv": [8, 0], "uv_size": [7, 1]},
+								"east": {"uv": [15, 0], "uv_size": [1, 1]},
+								"south": {"uv": [8, 0], "uv_size": [7, 1]},
+								"west": {"uv": [15, 0], "uv_size": [1, 1]},
+								"up": {"uv": [15, 1], "uv_size": [-7, -1]},
+								"down": {"uv": [15, 1], "uv_size": [-7, -1]}
+							}
+						},
+						{
+							"origin": [7, 0, -8],
+							"size": [1, 1.5, 8],
+							"uv": {
+								"north": {"uv": [15, 0], "uv_size": [1, 1]},
+								"east": {"uv": [8, 0], "uv_size": [8, 1]},
+								"south": {"uv": [15, 0], "uv_size": [1, 1]},
+								"west": {"uv": [8, 0], "uv_size": [8, 1]},
+								"up": {"uv": [16, 8], "uv_size": [-1, -8]},
+								"down": {"uv": [16, 8], "uv_size": [-1, -8]}
+							}
+						}
+					]
+				},
+				{
+					"name": "PizzaSlice3",
+					"parent": "block",
+					"pivot": [-7, -3, 0],
+					"cubes": [
+						{
+							"origin": [-7, 0, -7],
+							"size": [7, 1, 7],
+							"uv": {
+								"north": {"uv": [8, 1], "uv_size": [7, 1]},
+								"east": {"uv": [8, 1], "uv_size": [7, 1]},
+								"south": {"uv": [8, 1], "uv_size": [7, 1]},
+								"west": {"uv": [8, 1], "uv_size": [7, 1]},
+								"up": {"uv": [15, 8], "uv_size": [-7, -7]},
+								"down": {"uv": [15, 8], "uv_size": [-7, -7]}
+							}
+						},
+						{
+							"origin": [-7, 0, -8],
+							"size": [7, 1.5, 1],
+							"uv": {
+								"north": {"uv": [1, 0], "uv_size": [7, 1]},
+								"east": {"uv": [0, 0], "uv_size": [1, 1]},
+								"south": {"uv": [1, 0], "uv_size": [7, 1]},
+								"west": {"uv": [0, 0], "uv_size": [1, 1]},
+								"up": {"uv": [8, 1], "uv_size": [-7, -1]},
+								"down": {"uv": [8, 1], "uv_size": [-7, -1]}
+							}
+						},
+						{
+							"origin": [-8, 0, -8],
+							"size": [1, 1.5, 8],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [1, 1]},
+								"east": {"uv": [0, 0], "uv_size": [8, 1]},
+								"south": {"uv": [0, 0], "uv_size": [1, 1]},
+								"west": {"uv": [0, 0], "uv_size": [8, 1]},
+								"up": {"uv": [1, 8], "uv_size": [-1, -8]},
+								"down": {"uv": [1, 8], "uv_size": [-1, -8]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
