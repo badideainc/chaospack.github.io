@@ -1,0 +1,10 @@
+{
+  "values": [
+    "events/world/on_initialise",
+    "events/world/boss/solumn",
+    "events/player/on_death",
+    "events/player/emit_light",
+    "events/player/frogshot",
+    "events/player/jetpack"
+  ]
+}
