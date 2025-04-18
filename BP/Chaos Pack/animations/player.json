@@ -7,6 +7,13 @@
       },
       "animation_length": 0.05,
       "loop": true
+    },
+    "animation.player.balloon": {
+      "timeline": {
+        "0.0": [ "/effect @s slow_falling 1 255 true" ]
+      },
+      "animation_length": 0.05,
+      "loop": true
     }
   }
 }
