@@ -82,6 +82,13 @@
 		},
 
 		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"playsound crossbow.shoot @a[r=10] ~ ~ ~"
+					]
+				}
+			},
 			"minecraft:explode": {
 				"sequence": [
 					{
