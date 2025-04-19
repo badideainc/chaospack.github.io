@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"npc_player_spawn_egg": {
+			"textures": [ "textures/items/spawn_eggs/npc_player_spawn_egg" ]
+		},
 		"jetpack": {
 			"textures": "textures/items/gadgets/jetpack.png"
 		},
@@ -46,7 +49,7 @@
 			"textures": "textures/items/fossil.png"
 		},
 		"dodo_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/dodo_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/dodo_spawn_egg" ]
 		},
 		"pharaoh_sceptre": {
 			"textures": "textures/items/pharaoh_sceptre.png"
@@ -79,16 +82,16 @@
 			"textures": "textures/items/metal_sheet.png"
 		},
 		"crate_spawn_egg": {
-			"textures": ["textures/items/crate_spawn_egg"]
+			"textures": [ "textures/items/crate_spawn_egg" ]
 		},
 		"deck_chair_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/deck_chair_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/deck_chair_spawn_egg" ]
 		},
 		"row_boat_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/row_boat_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/row_boat_spawn_egg" ]
 		},
 		"backpack_spawn_egg": {
-			"textures": ["textures/items/backpack_spawn_egg"]
+			"textures": [ "textures/items/backpack_spawn_egg" ]
 		},
 		"ratstone": {
 			"textures": "textures/items/ratstone.png"
@@ -115,7 +118,7 @@
 			"textures": "textures/items/yeti_horn.png"
 		},
 		"pet_rock_spawn_egg": {
-			"textures": ["textures/items/pet_rock_spawn_egg"]
+			"textures": [ "textures/items/pet_rock_spawn_egg" ]
 		},
 		"cowboy_hat": {
 			"textures": "textures/items/hats/cowboy_hat.png"
@@ -175,13 +178,13 @@
 			"textures": "textures/items/wild_gear/wild_blade.png"
 		},
 		"wheely_bin_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/wheely_bin_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/wheely_bin_spawn_egg" ]
 		},
 		"toy_car_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/toy_car_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/toy_car_spawn_egg" ]
 		},
 		"mannequin_head_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/mannequin_head_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/mannequin_head_spawn_egg" ]
 		},
 		"marshmellow": {
 			"textures": "textures/items/marshmellow/marshmellow.png"
@@ -193,13 +196,13 @@
 			"textures": "textures/items/marshmellow/marshmellow_on_a_stick.png"
 		},
 		"log_bench_spawn_egg": {
-			"textures": ["textures/items/log_bench_spawn_egg"]
+			"textures": [ "textures/items/log_bench_spawn_egg" ]
 		},
 		"lightning_staff": {
 			"textures": "textures/items/lightning_staff.png"
 		},
 		"golf_cart_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/golf_cart_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/golf_cart_spawn_egg" ]
 		},
 		"sunglasses_higher": {
 			"textures": "textures/items/hats/sunglasses_higher.png"
@@ -223,118 +226,118 @@
 			"textures": "textures/items/eldritch_totem"
 		},
 		"mannequin_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/mannequin_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/mannequin_spawn_egg" ]
 		},
 		"wheel": {
-			"textures": ["textures/items/wheel"]
+			"textures": [ "textures/items/wheel" ]
 		},
 		"steering_wheel": {
-			"textures": ["textures/items/steering_wheel"]
+			"textures": [ "textures/items/steering_wheel" ]
 		},
 		"tree_sap": {
-			"textures": ["textures/items/tree_sap"]
+			"textures": [ "textures/items/tree_sap" ]
 		},
 		"rubber": {
-			"textures": ["textures/items/rubber"]
+			"textures": [ "textures/items/rubber" ]
 		},
 		"cadillac_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/cadillac_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/cadillac_spawn_egg" ]
 		},
 		"firefly_spawn_egg": {
-			"textures": ["textures/items/firefly_spawn_egg"]
+			"textures": [ "textures/items/firefly_spawn_egg" ]
 		},
 		"duck_egg": {
-			"textures": ["textures/items/duck_egg"]
+			"textures": [ "textures/items/duck_egg" ]
 		},
 		"sedan_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/sedan_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/sedan_spawn_egg" ]
 		},
 		"the_swamp_mobile_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/the_swamp_mobile_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/the_swamp_mobile_spawn_egg" ]
 		},
 		"deer_hide": {
-			"textures": ["textures/items/deer_hide"]
+			"textures": [ "textures/items/deer_hide" ]
 		},
 		"antler": {
-			"textures": ["textures/items/antler"]
+			"textures": [ "textures/items/antler" ]
 		},
 		"sand_skeleton_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/sand_skeleton_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/sand_skeleton_spawn_egg" ]
 		},
 		"yeti_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/yeti_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/yeti_spawn_egg" ]
 		},
 		"tumbleweed_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/tumbleweed_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/tumbleweed_spawn_egg" ]
 		},
 		"clown_creeper_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/clown_creeper_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/clown_creeper_spawn_egg" ]
 		},
 		"the_wild_hunt_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/the_wild_hunt_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/the_wild_hunt_spawn_egg" ]
 		},
 		"duck_male_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/duck_male_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/duck_male_spawn_egg" ]
 		},
 		"duck_female_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/duck_female_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/duck_female_spawn_egg" ]
 		},
 		"scarecrow_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/scarecrow_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/scarecrow_spawn_egg" ]
 		},
 		"solumn_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/solumn_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/solumn_spawn_egg" ]
 		},
 		"starfarer_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/starfarer_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/starfarer_spawn_egg" ]
 		},
 		"soul_spirit_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/soul_spirit_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/soul_spirit_spawn_egg" ]
 		},
 		"rat_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/rat_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/rat_spawn_egg" ]
 		},
 		"plagued_rat_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/plagued_rat_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/plagued_rat_spawn_egg" ]
 		},
 		"skelerat_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/skelerat_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/skelerat_spawn_egg" ]
 		},
 		"blight_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/blight_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/blight_spawn_egg" ]
 		},
 		"flamehound_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/flamehound_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/flamehound_spawn_egg" ]
 		},
 		"mummy_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/mummy_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/mummy_spawn_egg" ]
 		},
 		"plague_doctor_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/plague_doctor_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/plague_doctor_spawn_egg" ]
 		},
 		"deer_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/deer_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/deer_spawn_egg" ]
 		},
 		"not_deer_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/not_deer_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/not_deer_spawn_egg" ]
 		},
 		"pirate_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/pirate_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/pirate_spawn_egg" ]
 		},
 		"pharaoh_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/pharaoh_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/pharaoh_spawn_egg" ]
 		},
 		"lightning_horse_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/lightning_horse_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/lightning_horse_spawn_egg" ]
 		},
 		"ent_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/ent_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/ent_spawn_egg" ]
 		},
 		"giant_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/giant_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/giant_spawn_egg" ]
 		},
 		"butterfly_spawn_egg": {
-			"textures": ["textures/items/spawn_eggs/butterfly_spawn_egg"]
+			"textures": [ "textures/items/spawn_eggs/butterfly_spawn_egg" ]
 		}
 	}
 }
