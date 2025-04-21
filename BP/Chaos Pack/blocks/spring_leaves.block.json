@@ -22,7 +22,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "spring_leaves",
-					"render_method": "alpha_test"
+					"render_method": "blend"
 				}
 			},
 			"minecraft:liquid_detection": {
