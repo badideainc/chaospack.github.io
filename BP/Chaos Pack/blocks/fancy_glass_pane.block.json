@@ -7,10 +7,8 @@
 				"category": "construction",
 				"group": "itemGroup.name.glassPane"
 			},
-			"traits": {
-				"minecraft:placement_direction": {
-					"enabled_states": [ "minecraft:cardinal_direction" ]
-				}
+			"states": {
+				"chaospack:fence": ["", "n", "e", "s", "w", "ne", "nw", "ns", "se", "sw", "ew", "nse", "new", "sew", "nsw", "nsew" ]
 			}
 		},
 		"components": {
@@ -29,7 +27,7 @@
 				"explosion_resistance": 0
 			},
 			"minecraft:loot": "loot_tables/empty.json",
-			"minecraft:geometry": "geometry.glass_pane",
+			"minecraft:geometry": "geometry.glass_pane_half",
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "fancy_glass",
@@ -50,35 +48,235 @@
 		},
 		"permutations": [
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"condition": "q.block_state('chaospack:fence') == '' ",
 				"components": {
+					"minecraft:geometry": "geometry.glass_pane_one",
+					"minecraft:collision_box": {
+						"origin": [ -1, 0, -1 ],
+						"size": [ 2, 16, 2 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -1, 0, -1 ],
+						"size": [ 2, 16, 2 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'n' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_quarter",
+					"minecraft:collision_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 's' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_quarter",
 					"minecraft:transformation": {
 						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"condition": "q.block_state('chaospack:fence') == 'e' ",
 				"components": {
+					"minecraft:geometry": "geometry.glass_pane_quarter",
 					"minecraft:transformation": {
-						"rotation": [ 0, 0, 0 ]
+						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"condition": "q.block_state('chaospack:fence') == 'w' ",
 				"components": {
+					"minecraft:geometry": "geometry.glass_pane_quarter",
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -1, 0, -8 ],
+						"size": [ 2, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'ns' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_half",
 					"minecraft:transformation": {
 						"rotation": [ 0, 90, 0 ]
 					}
 				}
 			},
 			{
-				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"condition": "q.block_state('chaospack:fence') == 'ew' ",
 				"components": {
+					"minecraft:geometry": "geometry.glass_pane_half"
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'ne' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_corner",
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'se' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_corner",
 					"minecraft:transformation": {
 						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
 					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'nw' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_corner",
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'sw' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_corner",
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 8, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'nse' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_three",
+					"minecraft:transformation": {
+						"rotation": [ 0, 270, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'new' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_three",
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'sew' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_three",
+					"minecraft:transformation": {
+						"rotation": [ 0, 180, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'nsw' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_three",
+					"minecraft:transformation": {
+						"rotation": [ 0, 90, 0 ]
+					},
+					"minecraft:collision_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					},
+					"minecraft:selection_box": {
+						"origin": [ -8, 0, -8 ],
+						"size": [ 16, 16, 8 ]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('chaospack:fence') == 'nsew' ",
+				"components": {
+					"minecraft:geometry": "geometry.glass_pane_full",
+					"minecraft:collision_box": true,
+					"minecraft:selection_box": true
 				}
 			}
 		]
