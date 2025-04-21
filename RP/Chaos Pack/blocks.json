@@ -1,5 +1,8 @@
 {
 	"format_version": "1.21.60",
+	"autumn_leaves": {
+		"sound": "azalea_leaves"
+	},
 	"quartz_trim": {
 		"sound": "stone"
 	},

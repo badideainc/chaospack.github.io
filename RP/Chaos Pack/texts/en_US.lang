@@ -319,3 +319,4 @@ item.chaospack:frogshot_ammo=Frogshot Ammo
 item.chaospack:jetpack=Jetpack
 entity.chaospack:npc_player.name=Player Npc
 item.spawn_egg.entity.chaospack:npc_player.name=Player Npc Swawn Egg
+tile.chaospack:autumn_leaves.name=Autumn Leaves
