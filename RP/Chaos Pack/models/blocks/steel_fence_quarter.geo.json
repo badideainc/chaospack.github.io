@@ -1,0 +1,60 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.steel_fence_quarter",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [7, 0, 0],
+					"rotation": [0, -90, 0],
+					"cubes": [
+						{
+							"origin": [-1, 0, 6],
+							"size": [8, 16, 2],
+							"uv": {
+								"north": {"uv": [3, 8], "uv_size": [1, 1]},
+								"east": {"uv": [3, 8], "uv_size": [1, 1]},
+								"south": {"uv": [3, 8], "uv_size": [1, 1]},
+								"west": {"uv": [3, 8], "uv_size": [1, 1]},
+								"up": {"uv": [8, 1], "uv_size": [-8, -1]},
+								"down": {"uv": [8, 16], "uv_size": [-8, -1]}
+							}
+						},
+						{
+							"origin": [-1, 0, 7],
+							"size": [8, 16, 1],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [8, 16]},
+								"east": {"uv": [3, 8], "uv_size": [1, 1]},
+								"south": {"uv": [3, 8], "uv_size": [1, 1]},
+								"west": {"uv": [3, 8], "uv_size": [1, 1]},
+								"up": {"uv": [4, 9], "uv_size": [-1, -1]},
+								"down": {"uv": [4, 9], "uv_size": [-1, -1]}
+							}
+						},
+						{
+							"origin": [-1, 16, 7],
+							"size": [8, 1, 1],
+							"uv": {
+								"north": {"uv": [0, 14], "uv_size": [8, 1]},
+								"east": {"uv": [3, 8], "uv_size": [1, 1]},
+								"south": {"uv": [3, 8], "uv_size": [1, 1]},
+								"west": {"uv": [3, 8], "uv_size": [1, 1]},
+								"up": {"uv": [4, 9], "uv_size": [-1, -1]},
+								"down": {"uv": [4, 9], "uv_size": [-1, -1]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
