@@ -7,35 +7,56 @@ world.afterEvents.playerPlaceBlock.subscribe((event) => {
     checkPos(event, event.block)
 });
 
+world.afterEvents.playerBreakBlock.subscribe((event) => {
+    const { x, y, z } = event.block.location;
+
+    const eastBlock = event.dimension.getBlock({ x: x + 1, y, z });
+    const westBlock = event.dimension.getBlock({ x: x - 1, y, z });
+    const northBlock = event.dimension.getBlock({ x, y, z: z - 1 });
+    const southBlock = event.dimension.getBlock({ x, y, z: z + 1 });
+
+    updateOtherBlock(northBlock, event);
+    updateOtherBlock(southBlock, event);
+    updateOtherBlock(eastBlock, event);
+    updateOtherBlock(westBlock, event);
+});
+
 function checkPos(event, block) {
 
+    let state = block.permutation.getState("chaospack:fence");
+
+    const { x, y, z } = block.location;
+
+    const eastBlock = event.dimension.getBlock({ x: x + 1, y, z });
+    const westBlock = event.dimension.getBlock({ x: x - 1, y, z });
+    const northBlock = event.dimension.getBlock({ x, y, z: z - 1 });
+    const southBlock = event.dimension.getBlock({ x, y, z: z + 1 });
+
+    updateOtherBlock(northBlock, event);
+    updateOtherBlock(southBlock, event);
+    updateOtherBlock(eastBlock, event);
+    updateOtherBlock(westBlock, event);
+
     if (fences.includes(event.block.typeId)) {
-        let state = block.permutation.getState("chaospack:fence");
 
-        const { x, y, z } = block.location;
-
-        const eastBlock = event.dimension.getBlock({ x: x + 1, y, z });
-        const westBlock = event.dimension.getBlock({ x: x - 1, y, z });
-        const northBlock = event.dimension.getBlock({ x, y, z: z - 1 });
-        const southBlock = event.dimension.getBlock({ x, y, z: z + 1 });
 
         state = "";
 
         if (northBlock.typeId !== "minecraft:air") {
             state = state + "n";
-            updateOtherBlock(northBlock, event);
+            
         };
         if (southBlock.typeId !== "minecraft:air") {
             state = state + "s";
-            updateOtherBlock(southBlock, event);
+            
         };
         if (eastBlock.typeId !== "minecraft:air") {
             state = state + "e";
-            updateOtherBlock(eastBlock, event);
+            
         };
         if (westBlock.typeId !== "minecraft:air") {
             state = state + "w";
-            updateOtherBlock(westBlock, event);
+            
         };
 
         block.setPermutation(block.permutation.withState("chaospack:fence", state));
