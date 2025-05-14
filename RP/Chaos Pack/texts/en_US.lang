@@ -320,3 +320,5 @@ item.chaospack:jetpack=Jetpack
 entity.chaospack:npc_player.name=Player Npc
 item.spawn_egg.entity.chaospack:npc_player.name=Player Npc Swawn Egg
 tile.chaospack:autumn_leaves.name=Autumn Leaves
+entity.chaospack:copper_golem.name=Copper Golem
+item.spawn_egg.entity.chaospack:copper_golem.name=Spawn Copper Golem
