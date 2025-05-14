@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"copper_golem_spawn_egg": {
+			"textures": [ "textures/items/spawn_eggs/copper_golem_spawn_egg" ]
+		},
 		"npc_player_spawn_egg": {
 			"textures": [ "textures/items/spawn_eggs/npc_player_spawn_egg" ]
 		},
