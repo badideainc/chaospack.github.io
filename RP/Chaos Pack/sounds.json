@@ -1,6 +1,21 @@
 {
 	"entity_sounds": {
 		"entities": {
+			"chaospack:moobloom": {
+				"events": {
+					"ambient": "mob.cow.say",
+					"death": "mob.cow.hurt",
+					"eat": "mob.mooshroom.eat",
+					"hurt": "mob.cow.hurt",
+					"step": {
+						"pitch": [0.9, 1.1],
+						"sound": "mob.cow.step",
+						"volume": 0.65
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
 			"chaospack:copper_golem": {
 				"events": {
 					"ambient": "mob.irongolem.say",

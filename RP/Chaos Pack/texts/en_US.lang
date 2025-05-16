@@ -322,3 +322,6 @@ item.spawn_egg.entity.chaospack:npc_player.name=Player Npc Swawn Egg
 tile.chaospack:autumn_leaves.name=Autumn Leaves
 entity.chaospack:copper_golem.name=Copper Golem
 item.spawn_egg.entity.chaospack:copper_golem.name=Spawn Copper Golem
+entity.chaospack:moobloom.name=Moobloom
+item.spawn_egg.entity.chaospack:moobloom.name=Spawn Moobloom
+tile.chaospack:buttercup.name=Buttercup
