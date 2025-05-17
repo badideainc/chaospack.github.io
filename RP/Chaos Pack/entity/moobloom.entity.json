@@ -28,8 +28,7 @@
 			],
 			"render_controllers": [ "controller.render.default" ],
 			"spawn_egg": {
-				"base_color": "#eae150",
-				"overlay_color": "#ffffff"
+				"texture": "moobloom_spawn_egg"
 			}
 		}
 	}
