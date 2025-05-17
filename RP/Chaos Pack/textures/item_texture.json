@@ -1,5 +1,8 @@
 {
 	"texture_data": {
+		"moobloom_spawn_egg": {
+			"textures": [ "textures/items/spawn_eggs/moobloom_spawn_egg" ]
+		},
 		"copper_golem_spawn_egg": {
 			"textures": [ "textures/items/spawn_eggs/copper_golem_spawn_egg" ]
 		},
