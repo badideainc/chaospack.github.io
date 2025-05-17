@@ -223,22 +223,6 @@
 						"speed": 7
 					},
 					{
-						"block": "minecraft:stone_block_slab4",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:stone_block_slab3",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:stone_block_slab2",
-						"speed": 7
-					},
-					{
-						"block": "minecraft:stone_block_slab",
-						"speed": 7
-					},
-					{
 						"block": "minecraft:quartz_block",
 						"speed": 7
 					},
