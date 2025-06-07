@@ -3,13 +3,13 @@
 		"entities": {
 			"worldpack:vanta_tendril": {
 				"events": {
-					"ambient": "mob.endermen.idle",
-					"death": "mob.endermen.death",
-					"hurt": "mob.endermen.hit",
-					"mad": "mob.endermen.scream",
+					"ambient": "mob.robot.idle",
+					"death": "mob.robot.death",
+					"hurt": "mob.robot.death",
+					"mad": "mob.robot.scream",
 					"stare": {
 						"pitch": 1,
-						"sound": "mob.endermen.stare",
+						"sound": "mob.robot.scream",
 						"volume": 1
 					}
 				},

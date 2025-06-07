@@ -1,0 +1,24 @@
+{//All sounds sourced on Pixabay
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.robot.idle": {
+			"category": "hostile",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/robot/robot_idle" ]
+		},
+		"mob.robot.death": {
+			"category": "hostile",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/robot/robot_death" ]
+		},
+		"mob.robot.scream": {
+			"category": "hostile",
+			"max_distance": null,
+			"min_distance": null,
+			"sounds": [ "sounds/mob/robot/robot_scream" ]
+		}
+	}
+
+}
