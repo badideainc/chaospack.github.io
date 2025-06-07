@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vanta_tendril.arms_legs": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				},
+				"rightLeg": {
+					"rotation": ["math.clamp(this, -22.92, 22.92) - this", 0, 0]
+				}
+			}
+		},
+		"animation.vanta_tendril.carrying": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["-28.65 - this", 0, "-2.87 - this"]
+				},
+				"rightArm": {
+					"rotation": ["-28.65 - this", 0, "2.87 - this"]
+				}
+			}
+		},
+		"animation.vanta_tendril.scary_face": {
+			"loop": true,
+			"bones": {
+				"hat": {
+					"position": [0, "-5.0 - this", 0]
+				},
+				"head": {
+					"position": [0, "5.0 - this", 0]
+				},
+				"leftArm": {
+					"position": [5, 0, -1]
+				},
+				"leftLeg": {
+					"position": [0, 0, 0]
+				},
+				"rightArm": {
+					"position": [-4, 0, -1]
+				},
+				"rightLeg": {
+					"position": [0, 0, 0]
+				},
+				"leftArm2": {
+					"position": [4, 0, 1]
+				},
+				"leftLeg2": {
+					"position": [0, 0, 0]
+				},
+				"rightArm2": {
+					"position": [-5, 0, 1]
+				},
+				"rightLeg2": {
+					"position": [0, 0, 0]
+				}
+			}
+		},
+		"animation.vanta_tendril.attack.rotations": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": [0, "math.sin(math.sqrt(variable.attack_time) * 360) * 11.46 - this", 0]
+				},
+				"leftArm": {
+					"rotation": ["math.sin(math.sqrt(variable.attack_time) * 360) * 11.46", 0, 0]
+				},
+				"rightArm": {
+					"rotation": [
+						"math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )",
+						"variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0",
+						0
+					]
+				}
+			}
+		},
+		"animation.vanta_tendril.bob": {
+			"loop": true
+		},
+		"animation.vanta_tendril.move": {
+			"loop": true,
+			"bones": {
+				"leftArm": {
+					"rotation": ["variable.tcos0", 0, 0]
+				},
+				"leftLeg": {
+					"rotation": ["variable.tcos0 * -1.4", 0, 0]
+				},
+				"rightArm": {
+					"rotation": ["-variable.tcos0", 0, 0]
+				},
+				"rightLeg": {
+					"rotation": ["variable.tcos0 * 1.4", 0, 0]
+				},
+				"leftArm2": {
+					"rotation": ["-variable.tcos0", 0, 0]
+				},
+				"leftLeg2": {
+					"rotation": ["variable.tcos0 * 1.4", 0, 0]
+				},
+				"rightArm2": {
+					"rotation": ["variable.tcos0", 0, 0]
+				},
+				"rightLeg2": {
+					"rotation": ["variable.tcos0 * -1.4", 0, 0]
+				}
+			}
+		}
+	}
+}

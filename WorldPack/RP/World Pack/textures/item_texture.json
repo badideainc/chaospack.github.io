@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"wannasmile": {
+			"textures": "textures/items/wannasmile.png"
+		},
+		"vanta_tendril_spawn_egg": {
+			"textures": ["textures/items/vanta_tendril_spawn_egg"]
+		},
 		"fast_pass": {
 			"textures": "textures/items/fast_pass.png"
 		}
