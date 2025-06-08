@@ -3,6 +3,8 @@ The goofy minecraft bedrock behavior pack I made. As the name implies the mod in
 
 This code can be used for guidance with creating your own packs.
 
+*NOTE* Some of the javascript code was created with the assistance of Perplexity AI
+
 Created By: BadIdeaInc
 Music: Pixabay
 Special Thanks:
