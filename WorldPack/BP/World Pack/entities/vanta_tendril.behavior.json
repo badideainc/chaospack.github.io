@@ -88,6 +88,12 @@
 			"minecraft:type_family": {
 				"family": [ "VANTA", "monster", "mob" ]
 			},
+			"minecraft:damage_sensor": {
+				"triggers": {
+					"cause": "fall",
+					"deals_damage": false
+				}
+			},
 			"minecraft:breathable": {
 				"total_supply": 15,
 				"suffocate_time": 0
@@ -205,12 +211,26 @@
 				}
 			},
 			"chaospack:explode": {
-				"remove": {
-					"component_groups": [ "minecraft:vanta_tendril_angry" ]
-				},
-				"add": {
-					"component_groups": [ "minecraft:exploding" ]
-				}
+				"sequence": [
+					{
+						"remove": {
+							"component_groups": [ "minecraft:vanta_tendril_angry" ]
+						}
+					},
+					{
+						"add": {
+							"component_groups": [ "minecraft:exploding" ]
+						}
+					},
+					{
+						"queue_command": {
+							"command": [
+								"playsound mob.robot.death @a[r=10] ~ ~ ~"
+							]
+						}
+					}
+				]
+				
 			}
 		}
 	}
