@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Chaos Skin Pack",
+		"uuid": "79e1236a-0cb2-4b43-8e58-950726c5f36e",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "skin_pack",
+			"uuid": "4e62497c-fa0b-4e34-b3fc-a077a2d2a23c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

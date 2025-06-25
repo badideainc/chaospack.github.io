@@ -1,0 +1,30 @@
+{
+	"serialize_name": "Chaos Skin Pack",
+	"localization_name": "chaos_skins",
+	"skins": [
+		{
+			"localization_name": "dapper_cthulu",
+			"texture": "dapper_cthulu.png",
+			"geometry": "geometry.humanoid.custom",
+			"type": "free"
+		},
+		{
+			"localization_name": "carvthulu",
+			"texture": "carvthulu.png",
+			"geometry": "geometry.humanoid.custom",
+			"type": "free"
+		},
+		{
+			"localization_name": "icethulu",
+			"texture": "icethulu.png",
+			"geometry": "geometry.humanoid.custom",
+			"type": "free"
+		},
+		{
+			"localization_name": "starfarer",
+			"texture": "starfarer.png",
+			"geometry": "geometry.humanoid.custom",
+			"type": "free"
+		}
+	]
+}
