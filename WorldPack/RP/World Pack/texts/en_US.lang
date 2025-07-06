@@ -4,3 +4,5 @@ item.worldpack:fast_pass=Fast Pass
 entity.worldpack:vanta_tendril.name=VANTA Tendril
 item.spawn_egg.entity.worldpack:vanta_tendril.name=Spawn VANTA Tendril
 item.worldpack:wannasmile=WannaSmile
+item.worldpack:delay_in_delivery=Delay In Delivery
+item.worldpack:warehouse_blues=Warehouse Blues

@@ -1,5 +1,11 @@
 {
 	"texture_data": {
+		"warehouse_blues": {
+			"textures": "textures/items/warehouse_blues.png"
+		},
+		"delay_in_delivery": {
+			"textures": "textures/items/delay_in_delivery.png"
+		},
 		"wannasmile": {
 			"textures": "textures/items/wannasmile.png"
 		},
