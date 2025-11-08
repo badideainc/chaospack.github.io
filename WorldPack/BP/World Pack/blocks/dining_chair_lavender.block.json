@@ -1,0 +1,86 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "chaospack:dining_chair_lavender",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.furniture"
+			},
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"]
+				}
+			}
+		},
+		"components": {
+			"tag:chaospack:noConnect": {},
+			"minecraft:collision_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 12, 16 ]
+			},
+			"minecraft:selection_box": {
+				"origin": [ -8, 0, -8 ],
+				"size": [ 16, 12, 16 ]
+			},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.3
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 0
+			},
+			"minecraft:geometry": "geometry.dining_chair",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stripped_lavender_wood",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:liquid_detection": {
+				"detection_rules": [
+					{
+						"liquid_type": "water",
+						"can_contain_liquid": true,
+						"on_liquid_touches": "blocking"
+					}
+				]
+			},
+			"minecraft:custom_components": [ "chaospack:sittable" ],
+			"minecraft:map_color": "#b695c1"
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'north' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 180, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'south' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 0, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'east' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 90, 0]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:cardinal_direction') == 'west' ",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [0, 270, 0]
+					}
+				}
+			}
+		]
+	}
+}
