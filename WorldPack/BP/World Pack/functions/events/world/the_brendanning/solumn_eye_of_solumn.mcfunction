@@ -1,1 +1,0 @@
-execute at @e[type=chaospack:solumn] run summon chaospack:eye_of_solumn ~ ~15 ~
