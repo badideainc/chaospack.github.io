@@ -16,6 +16,22 @@
     border-radius: 6px;
 }
 
+.img-wrap {
+    position: relative;
+    display: block;
+}
+
+.img-wrap .title_overlay {
+    position: absolute;
+    left: 50%;
+    top: 12px;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 90%;
+    pointer-events: none;
+    z-index: 2;
+}
+
 .pack ul{
     display: flex;
     flex-direction: row;
