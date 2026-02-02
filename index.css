@@ -1,4 +1,59 @@
-.pack1 {
-    background-color: orange;
+#pack1 {
+    background-color: turquoise;
     padding: 10px;
+}
+
+#pack2 {
+    background-color: cyan;
+    padding: 10px;
+}
+
+.pack_icon {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.pack ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* align text at top */
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.pack ul li {
+    list-style-type: none;
+}
+
+.pack ul li:first-child {
+    flex: 0 0 48%; /* image column ~48% */
+}
+
+.pack ul li:last-child {
+    flex: 1; /* text column takes remaining space */
+}
+
+@media (max-width: 800px) {
+    .pack ul {
+        flex-direction: column;
+        gap: 12px;
+        align-items: stretch; /* make items full-width on narrow screens */
+    }
+    .pack ul li:first-child,
+    .pack ul li:last-child {
+        flex: none;
+        width: 100%;
+    }
+    .pack_icon {
+        max-height: 300px;
+        width: 100%;
+    }
+}
+
+#topBar {
+    text-align: center;
 }
