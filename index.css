@@ -1,10 +1,10 @@
-#pack1 {
-    background-color: turquoise;
+.pack1 {
+    background-color: rgb(255, 241, 214);
     padding: 10px;
 }
 
-#pack2 {
-    background-color: cyan;
+.pack2 {
+    background-color: rgb(232, 215, 183);
     padding: 10px;
 }
 
@@ -16,12 +16,12 @@
     border-radius: 6px;
 }
 
-.img-wrap {
+.img_wrap {
     position: relative;
     display: block;
 }
 
-.img-wrap .title_overlay {
+.img_wrap .title_overlay {
     position: absolute;
     left: 50%;
     top: 12px;
@@ -35,7 +35,7 @@
 .pack ul{
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* align text at top */
+    align-items: flex-start;
     gap: 20px;
     padding: 0;
     margin: 0;
@@ -46,18 +46,18 @@
 }
 
 .pack ul li:first-child {
-    flex: 0 0 48%; /* image column ~48% */
+    flex: 0 0 48%;
 }
 
 .pack ul li:last-child {
-    flex: 1; /* text column takes remaining space */
+    flex: 1;
 }
 
 @media (max-width: 800px) {
     .pack ul {
         flex-direction: column;
         gap: 12px;
-        align-items: stretch; /* make items full-width on narrow screens */
+        align-items: stretch;
     }
     .pack ul li:first-child,
     .pack ul li:last-child {
@@ -72,4 +72,32 @@
 
 #topBar {
     text-align: center;
+}
+
+.pack_buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.download {
+    background-color: darkcyan;
+}
+
+.download:hover {
+    background-color: cyan;
+}
+
+.guide {
+    background-color: darkorchid;
+}
+
+.guide:hover {
+    background-color: orchid;
+}
+
+.pack_buttons a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
 }
