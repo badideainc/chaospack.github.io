@@ -35,7 +35,7 @@
 .pack ul{
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* align text at top */
+    align-items: flex-start;
     gap: 20px;
     padding: 0;
     margin: 0;
@@ -46,18 +46,18 @@
 }
 
 .pack ul li:first-child {
-    flex: 0 0 48%; /* image column ~48% */
+    flex: 0 0 48%;
 }
 
 .pack ul li:last-child {
-    flex: 1; /* text column takes remaining space */
+    flex: 1;
 }
 
 @media (max-width: 800px) {
     .pack ul {
         flex-direction: column;
         gap: 12px;
-        align-items: stretch; /* make items full-width on narrow screens */
+        align-items: stretch;
     }
     .pack ul li:first-child,
     .pack ul li:last-child {
@@ -74,7 +74,7 @@
     text-align: center;
 }
 
-#pack_buttons {
+.pack_buttons {
     margin-top: 15px;
     display: flex;
     gap: 10px;
