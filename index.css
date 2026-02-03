@@ -16,12 +16,12 @@
     border-radius: 6px;
 }
 
-.img-wrap {
+.img_wrap {
     position: relative;
     display: block;
 }
 
-.img-wrap .title_overlay {
+.img_wrap .title_overlay {
     position: absolute;
     left: 50%;
     top: 12px;
