@@ -105,3 +105,11 @@ body {
     text-decoration: none;
     padding: 10px 15px;
 }
+
+#intro {
+    padding: 10px;
+}
+
+#intro p {
+    margin-bottom: 10px;
+}
