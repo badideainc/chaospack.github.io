@@ -81,17 +81,21 @@
 }
 
 .download {
-    color: darkcyan
+    background-color: darkcyan;
 }
 
 .download:hover {
-    color: cyan
+    background-color: cyan;
 }
 
 .guide {
-    color: darkorchid
+    background-color: darkorchid;
 }
 
 .guide:hover {
-    color: orchid
+    background-color: orchid;
+}
+
+.pack_buttons {
+    color: white;
 }
