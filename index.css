@@ -98,5 +98,6 @@
 
 .pack_buttons a {
     color: white;
+    text-decoration: none;
     padding: 10px 15px;
 }
