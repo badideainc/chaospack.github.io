@@ -79,3 +79,19 @@
     display: flex;
     gap: 10px;
 }
+
+.download {
+    color: darkcyan
+}
+
+.download:hover {
+    color: cyan
+}
+
+.guide {
+    color: darkorchid
+}
+
+.guide:hover {
+    color: orchid
+}
