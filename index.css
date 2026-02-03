@@ -1,11 +1,15 @@
 .pack1 {
-    background-color: rgb(255, 241, 214);
+    background-color: rgb(232, 215, 183);
     padding: 10px;
 }
 
 .pack2 {
-    background-color: rgb(232, 215, 183);
+    background-color: rgb(255, 241, 214);
     padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 241, 214);
 }
 
 .pack_icon {
